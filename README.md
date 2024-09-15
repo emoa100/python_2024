@@ -5,9 +5,9 @@
 ## 1주차
 파이썬 프로그램 설명
 
-## 2주차
+## 2주차(https://github.com/baek-study/python/blob/main/week2.ipynb)
 표준 출력 함수 print()
 
-## 3주차
+## 3주차(https://github.com/baek-study/python/blob/main/week3.ipynb)
 변수와 연산자
 표준 입력 함수 input()
