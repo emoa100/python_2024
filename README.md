@@ -9,5 +9,5 @@
 표준 출력 함수 print()
 
 ## [3주차 실습](https://github.com/baek-study/python/blob/main/week3.ipynb)
-변수와 연산자
+변수와 연산자<br>
 표준 입력 함수 input()
