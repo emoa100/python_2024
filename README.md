@@ -9,6 +9,6 @@
 표준 출력 함수 print()<br>
 
 ## [3주차 실습](https://github.com/baek-study/python/blob/main/week3.ipynb)
-변수 : x = 10 <br>
-연산자 : 산술, 할당, 타입변환<br>
+변수 <br>
+연산자 : 산술, 할당, 복합, 타입변환<br>
 표준 입력 함수 input()
