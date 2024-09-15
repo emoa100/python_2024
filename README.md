@@ -3,7 +3,7 @@
 보고, 실행하고, 프로그램을 직접 작성해 봅시다.
 
 ## 1주차
-파이썬 프로그램 설명
+파이썬 소개 - 대화형, 객체지향 언어
 
 ## [2주차 실습](https://github.com/baek-study/python/blob/main/week2.ipynb)
 표준 출력 함수 print()
