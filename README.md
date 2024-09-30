@@ -17,3 +17,8 @@
 문자열 생성하기 <br>
 문자열 서식 : f-문자열<br>
 문자열 함수/메소드 <br>
+
+## [5주차 실습](https://github.com/baek-study/python/blob/main/week5.ipynb)
+비교연산자 & 논리연산자 <br>
+단순 if/ if~else 문<br>
+중첩 if/ 연속 if <br>
