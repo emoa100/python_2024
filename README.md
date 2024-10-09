@@ -12,12 +12,12 @@
   <li>주석: 한줄(#), 여러줄(''', """) </li>
   <li>문장: 처리를 수행하는 명령어 <br>
   <li>표준출력함수 print()<br>
-  &ensp; - &ensp; print('hello'); print(1004) <br>
-  &ensp; - &ensp; 여러개 값: print(2, '+', 3)<br>
-  &ensp; - &ensp; 문자열간 + : print('파이썬을'+'배운다') <br> 
-  &ensp; - &ensp; 출력제어문자: print('탭키\t줄바꿈\n')<br>
-  &ensp; - &ensp; 키워드 sep: print('hello', sep='/') <br>  
-  &ensp; - &ensp; 키워드 end: print('hello', end=' ') 
+  &ensp; - &nbsp; print('hello'); print(1004) <br>
+  &ensp; - &nbsp; 여러개 값: print(2, '+', 3)<br>
+  &ensp; - &nbsp; 문자열간 + : print('파이썬을'+'배운다') <br> 
+  &ensp; - &nbsp; 출력제어문자: print('탭키\t줄바꿈\n')<br>
+  &ensp; - &nbsp; 키워드 sep: print('hello', sep='/') <br>  
+  &ensp; - &nbsp; 키워드 end: print('hello', end=' ') 
  </li>
 </ul>
 
@@ -26,19 +26,19 @@
 ## [3주차 실습-변수와 연산자](https://github.com/baek-study/python/blob/main/week3.ipynb)
 <ul>
   <li>변수(variable) <br>
-  &ensp; - &ensp; 자료형: 정수, 실수, 문자열, 논리형<br>
-  &ensp; - &ensp; x=1, y=3.1, z='hi', b='True'<br>
-  &ensp; - &ensp; 자료형 : type(x)<br>
-  &ensp; - &ensp; 참조값(주소) : id(x)
+  &ensp; - &nbsp; 자료형: 정수, 실수, 문자열, 논리형<br>
+  &ensp; - &nbsp; x=1, y=3.1, z='hi', b='True'<br>
+  &ensp; - &nbsp; 자료형 : type(x)<br>
+  &ensp; - &nbsp; 참조값(주소) : id(x)
   </li>
   <li>연산자(operator) <br>
-    &ensp; - &ensp;산술 : + - * / %(나머지) //(정수나눗셈)<br>
-    &ensp; - &ensp;대입 : x=3; x=x+1; x,y=3,5 <br>
-    &ensp; - &ensp;복합 : x += 3 &ensp; x=x+3 <br>
-    &ensp; - &ensp;타입변환: int(3.14), float(3)
+    &ensp; - &nbsp;산술 : + - * / %(나머지) //(정수나눗셈)<br>
+    &ensp; - &nbsp;대입 : x=3; x=x+1; x,y=3,5 <br>
+    &ensp; - &nbsp;복합 : x += 3 &ensp; x=x+3 <br>
+    &ensp; - &nbsp;타입변환: int(3.14), float(3)
   <li>표준 입력 함수 input()<br>
-    &ensp;- &ensp;기본:msg = input('나이는?')
-    &ensp;- &ensp;정수변환:age = int(msg)
+    &ensp;- &nbsp;기본:msg = input('나이는?')
+    &ensp;- &nbsp;정수변환:age = int(msg)
   </li>
 </ul>
 <br>
