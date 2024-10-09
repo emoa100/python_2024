@@ -26,7 +26,7 @@
 ## [3주차 실습-변수와 연산자](https://github.com/baek-study/python/blob/main/week3.ipynb)
 <ul>
   <li>변수(variable) <br>
-  &ensp; - 변수선언, type()-자료형, id()-참조값, 기호상수<br>
+  &ensp; - 자료형: 정수, 실수, 문자열, 논리형<br>
   &ensp; - x=100, y=3.14, z='hello'<br>
   &ensp; - 자료형 : type(x)<br>
   &ensp; - 참조값(주소) : id(x)
