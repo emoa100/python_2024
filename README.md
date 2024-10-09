@@ -105,8 +105,8 @@
 <li>조건 반복 while 문 <br>
   &ensp; <b>while</b> 조건문 <b>:</b> <br>
   &ensp; &ensp; &ensp;문장들<br>
-   &ensp;- &nbsp; while pw!='12':&ensp; pw=input()<br>
-   &ensp;- &nbsp; i=0; while i<5: i=i+1; print('hi')
+  &ensp;- &nbsp; while pw!='12':&ensp; pw=input()<br>
+  &ensp;- &nbsp; i=0;&ensp; while i<5:&ensp; i=i+1; print('hi')
 </li>
 </ul>
 
