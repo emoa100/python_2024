@@ -73,7 +73,7 @@
 </li>
 <li>제어문 기본 구성<br>
   &ensp;<b>제어키워드</b> 조건<b>:</b>  &ensp; #헤더<br>
-  &ensp; &ensp; 문장들 &emsp;&emsp;&emsp;&emsp; #스위트
+  &ensp; &ensp; 문장들 &emsp;&emsp;&emsp;&ensp; #스위트
 </li>
 <li>단순 if<br>
   &ensp; <b>if</b> 조건<b>:</b>&ensp; 문장 
@@ -99,12 +99,12 @@
 <ul>
 <li>횟수 반복 for 문 <br>
   &ensp; <b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
-  &ensp; <b>else:</b>&ensp; 문장들<br>
+  &ensp; &ensp;&ensp; 문장들<br>
   &ensp; - &nbsp; 범수표현: 문자열, 리스트, range()<br>
   &ensp; ex) &nbsp; for i in range(5):&ensp; print('hi')
 <li>조건 반복 while 문 <br>
   &ensp; <b>while</b> 조건문 <b>:</b> <br>
-  &ensp; <b>else:</b>&ensp; 문장들<br>
+  &ensp; &ensp; &ensp;문장들<br>
   &ensp; ex) &nbsp; while pwd!='12':&ensp; pwd=input('pwd')
 </li>
 </ul>
