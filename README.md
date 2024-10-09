@@ -12,8 +12,11 @@
   <li>주석: 한줄(#), 여러줄(''', """) </li>
   <li>자료형: 정수, 실수, 문자열, 논리(True/False) </li>
   <li>표준출력함수 print()<br>
-  &emsp; print('hello'); print(1004); print(2, '+', 3); print('a'+'b')
-    
+  &emsp; - 다양한 자료형 출력: print('hello'); print(1004); <br>
+  &emsp; - 여러개 값 출력: print(2, '+', 3); print('a'+'b')<br>
+  &emsp; - 문자열간 + : print('파이썬을'+'배운다') <br> 
+  &emsp; - 출력제어문자: print('탭키\t줄바꿈\n')<br>
+  &emsp; - 키워드 sep, end: print('hello', sep='/', end=' ') <br>  
  </li>
 </ul>
 
