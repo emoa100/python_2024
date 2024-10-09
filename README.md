@@ -14,7 +14,7 @@
   <li>표준출력함수 print()<br>
     &ensp; - &nbsp; print('hello'); print(1004) <br>
     &ensp; - &nbsp; 여러개 값: print(2, '+', 3)<br>
-    &ensp; - &nbsp; 문자열간 + : print('파이썬을'+'배운다') <br> 
+    &ensp; - &nbsp; 문자열간 +: print('파이썬을'+'배운다') <br> 
     &ensp; - &nbsp; 출력제어문자: print('탭키\t줄바꿈\n')<br>
     &ensp; - &nbsp; 키워드 sep: print('hello', sep='/') <br>  
     &ensp; - &nbsp; 키워드 end: print('hello', end=' ') 
@@ -28,17 +28,17 @@
   <li>변수(variable) <br>
     &ensp; - &nbsp; 자료형: 정수, 실수, 문자열, 논리형<br>
     &ensp; - &nbsp; x=1, y=3.1, z='hi', b='True'<br>
-    &ensp; - &nbsp; 자료형 : type(x)<br>
-    &ensp; - &nbsp; 참조값(주소) : id(x)
+    &ensp; - &nbsp; 자료형: type(x)<br>
+    &ensp; - &nbsp; 참조값(주소): id(x)
   </li>
   <li>연산자(operator) <br>
-    &ensp; - &nbsp;산술 : + - * / %(나머지) //(정수나눗셈)<br>
-    &ensp; - &nbsp;대입 : x=3; x=x+1; x,y=3,5 <br>
-    &ensp; - &nbsp;복합 : x += 3 &ensp; x=x+3 <br>
+    &ensp; - &nbsp;산술: + - * / %(나머지) //(정수나눗셈)<br>
+    &ensp; - &nbsp;대입: x=3; x=x+1; x,y=3,5 <br>
+    &ensp; - &nbsp;복합: x += 3 &ensp; x=x+3 <br>
     &ensp; - &nbsp;타입변환: int(3.14), float(3)
   <li>표준 입력 함수 input()<br>
     &ensp;- &nbsp; msg = input('나이는?')&ensp;#문자열리턴<br>
-    &ensp;- &nbsp;정수변환:age = int(msg)
+    &ensp;- &nbsp;정수변환: age = int(msg)
   </li>
 </ul>
 <br>
@@ -46,10 +46,10 @@
 ## [4주차 실습-문자열](https://github.com/baek-study/python/blob/main/week4.ipynb)
 <ul>
 <li>문자열 생성 및 조작 <br>
-  &ensp; - &nbsp; 생성 : 한줄(', "), 여러줄(''', """)<br>
-  &ensp; - &nbsp; 인덱싱 [index] : msg[3]<br>
+  &ensp; - &nbsp; 생성: 한줄(', "), 여러줄(''', """)<br>
+  &ensp; - &nbsp; 인덱싱 [index]: msg[3]<br>
   &ensp; - &nbsp; 슬라이싱 [start:end:step]: msg[3:5:1]<br>
-  &ensp; - &nbsp; 연산: 'hi'+'mju', 'hi'*3 
+  &ensp; - &nbsp; 연산+,*: 'hi'+'mju', 'hi'*3 
 </li>
 <li>문자열 서식 : f-문자열<br>
   &ensp; - &nbsp; print(f'hi. {name}, age {25}') <br>
@@ -58,6 +58,8 @@
   &ensp; - &nbsp; 정밀도: {3.145:.2f} &ensp; #소수점 몇자리
 </li>
 <li>문자열 함수/메소드 <br>
+  &ensp; - &nbsp; 내장함수: len(s), max(s), min(s)<br>
+  &ensp; - &nbsp; 메소드 - s.split(), s.count(), s.find(), s.replace()
 </li>
 </ul>
 
