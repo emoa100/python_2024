@@ -9,9 +9,9 @@
 
 ## [2주차 실습-기본 구조](https://github.com/baek-study/python/blob/main/week2.ipynb)
 <ul>
-  <li>기본구성요소 </li>
-  <li>자료형 </li>
-  <li>표준출력함수 </li>
+  <li>주석:한줄(#), 여러줄(''', """) </li>
+  <li>자료형: 정수, 실수, 문자열, 논리(True/False) </li>
+  <li>표준출력함수 print() </li>
 </ul>
 
 <br>
