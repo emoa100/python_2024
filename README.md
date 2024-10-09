@@ -73,7 +73,7 @@
 </li>
 <li>제어문 기본 구성<br>
   &ensp;<b>제어키워드</b> 조건<b>:</b>  &ensp; #헤더<br>
-  &ensp; &ensp; 문장들 &ensp;&ensp;&ensp; #스위트
+  &ensp; &ensp; 문장들 &emsp;&emsp;&emsp;&emsp; #스위트
 </li>
 <li>단순 if<br>
   &ensp; <b>if</b> 조건<b>:</b>&ensp; 문장 
