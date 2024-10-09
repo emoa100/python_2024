@@ -10,7 +10,7 @@
 ## [2주차 실습-기본 구조](https://github.com/baek-study/python/blob/main/week2.ipynb)
 <ul>
   <li>주석: 한줄(#), 여러줄(''', """) </li>
-  <li>자료형: 정수, 실수, 문자열, 논리(True/False) </li>
+  <li>문장: 처리를 수행하는 명령어 <br>
   <li>표준출력함수 print()<br>
   &emsp; - 다양한 자료형 출력: print('hello'); print(1004); <br>
   &emsp; - 여러개 값 출력: print(2, '+', 3); print('a'+'b')<br>
@@ -24,9 +24,12 @@
 
 ## [3주차 실습-변수와 연산자](https://github.com/baek-study/python/blob/main/week3.ipynb)
 <ul>
-<li>변수 <br></li>
-<li>연산자 : 산술, 할당, 복합, 타입변환<br></li>
-<li>표준 입력 함수 input()<br></li>
+  <li>변수(variable) <br>
+  &emsp; 변수선언, type()-자료형, id()-참조값, 기호상수<br>
+  &emsp; 변수선언 : x=100, y=3.14, z='hello'<br>
+  </li>
+  <li>연산자 : 산술, 할당, 복합, 타입변환<br></li>
+  <li>표준 입력 함수 input()<br></li>
 </ul>
 <br>
 
