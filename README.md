@@ -27,12 +27,19 @@
 <ul>
   <li>변수(variable) <br>
   &ensp; - 자료형: 정수, 실수, 문자열, 논리형<br>
-  &ensp; - x=100, y=3.14, z='hello'<br>
+  &ensp; - x=1, y=3.1, z='hi', b='True'<br>
   &ensp; - 자료형 : type(x)<br>
   &ensp; - 참조값(주소) : id(x)
   </li>
-  <li>연산자 : 산술, 할당, 복합, 타입변환<br></li>
-  <li>표준 입력 함수 input()<br></li>
+  <li>연산자(operator) <br>
+    &ensp; -산술 : + - * / %(나머지) //(정수나눗셈)<br>
+    &ensp; -대입 : x=3; x=x+1; x,y=3,5 <br>
+    &ensp; -복합 : x += 3 &ensp; x=x+3 <br>
+    &ensp; -타입변환: int(3.14), float(3)
+  <li>표준 입력 함수 input()<br>
+    &ensp;-기본:msg = input('나이는?')
+    &ensp;-정수변환:age = int(msg)
+  </li>
 </ul>
 <br>
 
