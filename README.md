@@ -1,6 +1,5 @@
 # python 프로그래밍 입문
 파이썬 프로그래밍 입문 수강자가 핵심 내용을 쉽게 알고, 실행 시켜 보는 페이지 입니다.
-보고, 실행하고, 프로그램을 직접 작성해 봅시다.
 
 ## 1주차
 파이썬 소개 - 대화형, 객체지향 언어
@@ -100,9 +99,8 @@
 <li>횟수 반복 for 문 <br>
   &ensp; <b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
   &ensp; &ensp;&ensp; 문장들<br>
-  &ensp; - &nbsp; 범수표현: 문자열, 리스트, range()<br>
-  &ensp;- &nbsp; for ch in 'hi':&ensp; print(ch)<br>
   &ensp;- &nbsp; for i in range(5):&ensp; print('hi')<br>
+  &ensp;- &nbsp; for ch in 'hi':&ensp; print(ch)<br>
   &ensp;- &nbsp; for i in [1,2,3]:&ensp; print(i)
 <li>조건 반복 while 문 <br>
   &ensp; <b>while</b> 조건문 <b>:</b> <br>
