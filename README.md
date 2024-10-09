@@ -12,12 +12,12 @@
   <li>주석: 한줄(#), 여러줄(''', """) </li>
   <li>문장: 처리를 수행하는 명령어 <br>
   <li>표준출력함수 print()<br>
-  &emsp; - print('hello'); print(1004) <br>
-  &emsp; - 여러개 값: print(2, '+', 3)<br>
-  &emsp; - 문자열간 + : print('파이썬을'+'배운다') <br> 
-  &emsp; - 출력제어문자: print('탭키\t줄바꿈\n')<br>
-  &emsp; - 키워드 sep: print('hello', sep='/') <br>  
-  &emsp; - 키워드 end: print('hello', end=' ') 
+  &ensp; - print('hello'); print(1004) <br>
+  &ensp; - 여러개 값: print(2, '+', 3)<br>
+  &ensp; - 문자열간 + : print('파이썬을'+'배운다') <br> 
+  &ensp; - 출력제어문자: print('탭키\t줄바꿈\n')<br>
+  &ensp; - 키워드 sep: print('hello', sep='/') <br>  
+  &ensp; - 키워드 end: print('hello', end=' ') 
  </li>
 </ul>
 
@@ -26,8 +26,10 @@
 ## [3주차 실습-변수와 연산자](https://github.com/baek-study/python/blob/main/week3.ipynb)
 <ul>
   <li>변수(variable) <br>
-  &emsp; 변수선언, type()-자료형, id()-참조값, 기호상수<br>
-  &emsp; 변수선언 : x=100, y=3.14, z='hello'<br>
+  &ensp; - 변수선언, type()-자료형, id()-참조값, 기호상수<br>
+  &ensp; - x=100, y=3.14, z='hello'<br>
+  &ensp; - 자료형 : type(x)<br>
+  &ensp; - 참조값(주소) : id(x)
   </li>
   <li>연산자 : 산술, 할당, 복합, 타입변환<br></li>
   <li>표준 입력 함수 input()<br></li>
