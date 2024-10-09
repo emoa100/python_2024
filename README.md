@@ -105,7 +105,7 @@
 <li>조건 반복 while 문 <br>
   &ensp; <b>while</b> 조건문 <b>:</b> <br>
   &ensp; &ensp; &ensp;문장들<br>
-  &ensp; ex) &nbsp; while pwd!='12':&ensp; pwd=input('pwd')
+  &ensp; ex) &nbsp; while pw!='12':&ensp; pw=input()
 </li>
 </ul>
 
