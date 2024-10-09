@@ -22,3 +22,7 @@
 비교연산자 & 논리연산자 <br>
 단순 if/ if~else 문<br>
 중첩 if/ 연속 if <br>
+
+## [6주차 실습](https://github.com/baek-study/python/blob/main/week6.ipynb)
+횟수 반복 for 문 <br>
+조건 반복 while 문 <br>
