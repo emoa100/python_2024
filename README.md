@@ -12,11 +12,12 @@
   <li>주석: 한줄(#), 여러줄(''', """) </li>
   <li>문장: 처리를 수행하는 명령어 <br>
   <li>표준출력함수 print()<br>
-  &emsp; - 다양한 자료형 출력: print('hello'); print(1004); <br>
-  &emsp; - 여러개 값 출력: print(2, '+', 3); print('a'+'b')<br>
+  &emsp; - print('hello'); print(1004) <br>
+  &emsp; - 여러개 값: print(2, '+', 3)<br>
   &emsp; - 문자열간 + : print('파이썬을'+'배운다') <br> 
   &emsp; - 출력제어문자: print('탭키\t줄바꿈\n')<br>
-  &emsp; - 키워드 sep, end: print('hello', sep='/', end=' ') <br>  
+  &emsp; - 키워드 sep: print('hello', sep='/') <br>  
+  &emsp; - 키워드 end: print('hello', end=' ') 
  </li>
 </ul>
 
