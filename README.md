@@ -71,7 +71,7 @@
   &ensp; - &nbsp; 비교 연산자 : == != > < >= <=<br>
   &ensp; - &nbsp; 논리 연산자 : and or not
 </li>
-<li>제어문 기본 구성
+<li>제어문 기본 구성<br>
   &ensp;<b>제어키워드</b> 조건<b>:</b>  &ensp; #헤더<br>
   &ensp; &ensp; 문장 &ensp; #스위트
 </li>
@@ -98,8 +98,14 @@
 ## [6주차 실습-반복문1](https://github.com/baek-study/python/blob/main/week6.ipynb)
 <ul>
 <li>횟수 반복 for 문 <br>
-</li>
+  &ensp; <b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
+  &ensp; <b>else:</b>&ensp; 문장들
+  &ensp; - &nbsp; 범수표현: 문자열, 리스트, range()
+  &ensp; - &nbsp; for i in range(5):&ensp; print('hi')
 <li>조건 반복 while 문 <br>
+  &ensp; <b>while</b> 조건문 <b>:</b> <br>
+  &ensp; <b>else:</b>&ensp; 문장들
+   &ensp; - &nbsp; while pwd!='12':&ensp; pwd=input('pwd')
 </li>
 </ul>
 
