@@ -101,13 +101,13 @@
   &ensp; <b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
   &ensp; &ensp;&ensp; 문장들<br>
   &ensp; - &nbsp; 범수표현: 문자열, 리스트, range()<br>
-  &ensp;- &nbsp; for ch in 'hi':&ensp; print(ch)
-  &ensp;- &nbsp; for i in range(5):&ensp; print('hi')
+  &ensp;- &nbsp; for ch in 'hi':&ensp; print(ch)<br>
+  &ensp;- &nbsp; for i in range(5):&ensp; print('hi')<br>
   &ensp;- &nbsp; for i in [1,2,3]:&ensp; print(i)
 <li>조건 반복 while 문 <br>
   &ensp; <b>while</b> 조건문 <b>:</b> <br>
   &ensp; &ensp; &ensp;문장들<br>
-   &ensp;- &nbsp; while pw!='12':&ensp; pw=input()
+   &ensp;- &nbsp; while pw!='12':&ensp; pw=input()<br>
    &ensp;- &nbsp; i=0; while i<5: i=i+1; print('hi')
 </li>
 </ul>
