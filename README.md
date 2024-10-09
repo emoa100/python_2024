@@ -34,7 +34,7 @@
   <li>연산자(operator) <br>
     &ensp; - &nbsp;산술: + - * / %(나머지) //(정수나눗셈)<br>
     &ensp; - &nbsp;대입: x=3; x=x+1; x,y=3,5 <br>
-    &ensp; - &nbsp;복합: x += 3 &ensp; x=x+3 <br>
+    &ensp; - &nbsp;복합: x += 3 &ensp;# x=x+3 <br>
     &ensp; - &nbsp;타입변환: int(3.14), float(3)
   <li>표준 입력 함수 input()<br>
     &ensp;- &nbsp; msg = input('나이는?')&ensp;#문자열리턴<br>
@@ -59,7 +59,7 @@
 </li>
 <li>문자열 함수/메소드 <br>
   &ensp; - &nbsp; 내장함수: len(s), max(s), min(s)<br>
-  &ensp; - &nbsp; 메소드 - s.split(), s.count(), s.find(), s.replace()
+  &ensp; - &nbsp; 메소드 - s.split(), s.count(), s.find()
 </li>
 </ul>
 
@@ -67,11 +67,29 @@
 
 ## [5주차 실습-조건문](https://github.com/baek-study/python/blob/main/week5.ipynb)
 <ul>
-<li>비교연산자 & 논리연산자 <br>
+<li>조건식을 위한 연산자 <br>
+  &ensp; - &nbsp; 비교 연산자 : == != > < >= <=<br>
+  &ensp; - &nbsp; 논리 연산자 : and or not
 </li>
-<li>단순 if/ if~else 문<br>
+<li>제어문 기본 구성
+  &ensp;<b>제어키워드</b> 조건<b>:</b>  &ensp; #헤더<br>
+  &ensp; &ensp; 문장 &ensp; #스위트
 </li>
-<li>중첩 if/ 연속 if <br>
+<li>단순 if<br>
+  &ensp; <b>if</b> 조건<b>:</b>&ensp; 문장 
+</li>
+<li>if~else 문<br>
+  &ensp; <b>if</b> 조건<b>:</b>&ensp; 문장 <br>
+  &ensp; <b>else:</b>&ensp; 문장 
+</li>
+<li>중첩 if<br>
+  &ensp; <b>if</b> 조건<b>:</b>&ensp; if 조건: 문장 <br>
+  &ensp; <b>else:</b>&ensp; if 조건: 문장 
+</li>
+<li>연속 if <br>
+  &ensp; <b>if</b> 조건<b>:</b>&ensp;  문장 <br>
+  &ensp; <b>else if</b> 조건<b>:</b>&ensp; 문장 <br>
+  &ensp; <b>else :</b>&ensp; 문장 <br>
 </li>
 </ul>
 
