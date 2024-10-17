@@ -116,7 +116,7 @@
 <ul>
 <li>중첩 for <br>
   &ensp; <b>for 변수 in 범위표현:</b> <br>
-  &ensp; &nbsp; <b>for i in 범위표현:</b>b>&ensp;
+  &ensp; &nbsp; <b>for i in 범위표현:</b><br>
   &ensp;&nbsp;&nbsp;문장들<br>
   
 <li>무한루프 - while <br>
