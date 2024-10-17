@@ -115,9 +115,9 @@
 ## [7주차 실습&nbsp;-&nbsp;반복문2](https://github.com/baek-study/python/blob/main/week7.ipynb)
 <ul>
 <li>중첩 for <br>
-  &ensp; <b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
-  &ensp; &nbsp; for i in 범위표현:&ensp;
-  &ensp;- &nbsp;&nbsp;문장들<br>
+  &ensp; <b>for 변수 in 범위표현:</b> <br>
+  &ensp; &nbsp; <b>for i in 범위표현:</b>b>&ensp;
+  &ensp;&nbsp;&nbsp;문장들<br>
   
 <li>무한루프 - while <br>
   &ensp; <b>while TRUE :</b> <br>
