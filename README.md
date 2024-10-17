@@ -116,13 +116,12 @@
 <ul>
 <li>중첩 for <br>
   &ensp; <b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
-  &ensp;- &nbsp; for i in 범위표현:&ensp;
+  &ensp; &nbsp; for i in 범위표현:&ensp;
   &ensp;- &nbsp;&nbsp;문장들<br>
   
 <li>무한루프 - while <br>
   &ensp; <b>while TRUE :</b> <br>
   &ensp; &ensp; &ensp;문장들<br>
-  &ensp;- &nbsp; while pw!='12':&ensp; pw=input()<br>
 </li>
 
 <li>보조제어 - break, continue<br>
