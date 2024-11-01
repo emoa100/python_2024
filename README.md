@@ -138,22 +138,18 @@
   &ensp; <b>def get_area(radius) :</b> <br>
   &ensp; &ensp; area = radius*radius*3.14 <br>
   &ensp;&ensp;  <b>return area</b>
+  <br>
+  - 매개변수 : 함수 정의시 입력 변수<br>
+  - 반환값 : 함수 정의시 수행후 출력 값<br>
   
 <li>함수 호출 - 함수이름(인수) <br>
    &ensp; result = get_area(10)
-
-
-  - 매개변수 : 함수 정의시 입력 변수<br>
-  - 반환값 : 함수 정의시 수행후 출력 값<br>
+   <br>
   - 인수 : 함수 호출시 입력되는 실제 값<br>
 </li>
-
+<li>키워드 인수, 디폴트 인수, 가변 인수 </li>
 </ul>
+
 <br>
 
-<ul>
-  <li>키워드 인수: 호출시 매개변수 이름 이용 </li>
-  <li>디폴트 인수: 매개변수에 기본값 정해짐</li>
-  <li>가변 인수 : 인수 갯수 정해지지 않음</li>
-</ul>
-</ul>
+
