@@ -137,16 +137,16 @@
 <li>함수 정의 - def 함수이름(매개변수) : <br>
   &ensp; <b>def get_area(radius) :</b> <br>
   &ensp; &ensp; area = radius*radius*3.14 <br>
-  &ensp;&ensp;  return area<br>
+  &ensp;&ensp;  <b>return area</b>
   
 <li>함수 호출 - 함수이름(인수) <br>
    &ensp; result = get_area(10)
 </li>
 </ul>
 
-<ul>
-  <li>매개변수 : 함수 정의시 입력 변수</li>
-  <li>반환값 : 함수 정의시 수행후 출력 값</li>
-  <li>인수 : 함수 호출시 입력되는 실제 값</li>
+  <li>-매개변수 : 함수 정의시 입력 변수<br>
+  - 반환값 : 함수 정의시 수행후 출력 값<br>
+  - 인수 : 함수 호출시 입력되는 실제 값<br>
+  </li>
 </ul>
 <br>
