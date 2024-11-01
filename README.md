@@ -4,7 +4,7 @@
 
 <hr size = "10px", width ="500px">
 
-## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/week9.ipynb)
+## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/source/week9.ipynb)
 <ul>
 <li>함수 정의 - def 함수이름(매개변수) : <br>
   &ensp; <b>def get_area(radius) :</b> <br>
