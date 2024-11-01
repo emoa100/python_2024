@@ -2,8 +2,6 @@
 파이썬 프로그래밍 입문 수강자가 핵심 내용을 쉽게 알고, 실행 시켜 보는 페이지 입니다. <br>
 핵심 : 변수 - 연산자 - 문자열 - 조건문(if) - 반복문(while,for) - 함수 - 모듈 - 객체 - 파일
 
-<br>
-
 <hr size = "10px", width ="500px">
 
 ## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/week9.ipynb)
