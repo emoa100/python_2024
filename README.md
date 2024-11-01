@@ -36,7 +36,7 @@
 
 <br>
 
-## [2주차 실습&nbsp;-&nbsp;기본 구조](https://github.com/baek-study/python/blob/main/week2.ipynb)
+## [2주차 실습&nbsp;-&nbsp;기본 구조](https://github.com/baek-study/python/blob/main/source/week2.ipynb)
 <ul>
   <li>주석: 한줄(#), 여러줄(''', """) </li>
   <li>문장: 처리를 수행하는 명령어 <br>
@@ -52,7 +52,7 @@
 
 <br>
 
-## [3주차 실습&nbsp;-&nbsp;변수와 연산자](https://github.com/baek-study/python/blob/main/week3.ipynb)
+## [3주차 실습&nbsp;-&nbsp;변수와 연산자](https://github.com/baek-study/python/blob/main/source/week3.ipynb)
 <ul>
   <li>변수(variable) <br>
     &ensp; - &nbsp; 자료형: 정수, 실수, 문자열, 논리형<br>
@@ -72,7 +72,7 @@
 </ul>
 <br>
 
-## [4주차 실습&nbsp;-&nbsp;문자열](https://github.com/baek-study/python/blob/main/week4.ipynb)
+## [4주차 실습&nbsp;-&nbsp;문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
 <ul>
 <li>문자열 생성 및 조작 <br>
   &ensp; - &nbsp; 생성: 한줄(', "), 여러줄(''', """)<br>
@@ -94,7 +94,7 @@
 
 <br>
 
-## [5주차 실습&nbsp;-&nbsp;조건문](https://github.com/baek-study/python/blob/main/week5.ipynb)
+## [5주차 실습&nbsp;-&nbsp;조건문](https://github.com/baek-study/python/blob/main/source/week5.ipynb)
 <ul>
 <li>조건식을 위한 연산자 <br>
   &ensp; - &nbsp; 비교 연산자 : == != > < >= <=<br>
@@ -124,7 +124,7 @@
 
 <br>
 
-## [6주차 실습&nbsp;-&nbsp;반복문1](https://github.com/baek-study/python/blob/main/week6.ipynb)
+## [6주차 실습&nbsp;-&nbsp;반복문1](https://github.com/baek-study/python/blob/main/source/week6.ipynb)
 <ul>
 <li>횟수 반복 for 문 <br>
   &ensp; <b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
@@ -142,7 +142,7 @@
 
 <br>
 
-## [7주차 실습&nbsp;-&nbsp;반복문2](https://github.com/baek-study/python/blob/main/week7.ipynb)
+## [7주차 실습&nbsp;-&nbsp;반복문2](https://github.com/baek-study/python/blob/main/source/week7.ipynb)
 <ul>
 <li>중첩 for <br>
   &ensp; <b>for 변수 in 범위표현:</b> <br>
@@ -161,7 +161,7 @@
 
 <br>
 
-## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/week9.ipynb)
+## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/source/week9.ipynb)
 <ul>
 <li>함수 정의 - def 함수이름(매개변수) : <br>
   &ensp; <b>def get_area(radius) :</b> <br>
