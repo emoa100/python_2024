@@ -1,5 +1,6 @@
 # python 프로그래밍 입문
 파이썬 프로그래밍 입문 수강자가 핵심 내용을 쉽게 알고, 실행 시켜 보는 페이지 입니다.
+핵심 : 변수 - 연산자 - 문자열 - 조건문(if) - 반복문(while,for) - 함수 - 모듈 - 객체 - 파일
 
 ## 1주차
 파이썬 소개 - 대화형, 객체지향 언어
@@ -129,4 +130,23 @@
 </li>
 </ul>
 
+<br>
+
+## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/week9.ipynb)
+<ul>
+<li>함수 정의 - def 함수이름(매개변수) : <br>
+  &ensp; <b>def get_area(radius) :</b> <br>
+  &ensp; &ensp; area = radius*radius*3.14 <br>
+  &ensp;&ensp;  return area<br>
+  
+<li>함수 호출 - 함수이름(인수) <br>
+   &ensp; result = get_area(10)
+</li>
+</ul>
+
+<ul>
+  <li>매개변수 : 함수 정의시 입력 변수</li>
+  <li>반환값 : 함수 정의시 수행후 출력 값</li>
+  <li>인수 : 함수 호출시 입력되는 실제 값</li>
+</ul>
 <br>
