@@ -2,6 +2,35 @@
 파이썬 프로그래밍 입문 수강자가 핵심 내용을 쉽게 알고, 실행 시켜 보는 페이지 입니다.
 핵심 : 변수 - 연산자 - 문자열 - 조건문(if) - 반복문(while,for) - 함수 - 모듈 - 객체 - 파일
 
+## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/week9.ipynb)
+<ul>
+<li>함수 정의 - def 함수이름(매개변수) : <br>
+  &ensp; <b>def get_area(radius) :</b> <br>
+  &ensp; &ensp; area = radius*radius*3.14 <br>
+  &ensp;&ensp;  <b>return area</b>
+  <br> <br>
+  - 매개변수 : 함수 정의시 입력 변수<br>
+  - 반환값 : 함수 정의시 수행후 출력 값<br>
+  
+<li>함수 호출 - 함수이름(인수) <br>
+   &ensp; result = get_area(10)
+   <br> <br>
+  - 인수 : 함수 호출시 입력되는 실제 값<br>
+</li>
+<li>키워드 인수, 디폴트 인수, 가변 인수 
+<br> 정의 : print(*args, sep = ' ', end = '\n' .... )  # sep, end는 디폴트 인수, args는 가변인수
+<br> 호출 : print(2, end = ' ')  # end 는 키워드 인수
+<br> 호출 : print(2, 3, 4 )  # end 는 디폴트 값 이용
+</li>
+
+</ul>
+
+<br>
+
+<hr size = "10px", width ="500px">
+
+<br>
+
 ## 1주차
 파이썬 소개 - 대화형, 객체지향 언어
 
@@ -138,13 +167,13 @@
   &ensp; <b>def get_area(radius) :</b> <br>
   &ensp; &ensp; area = radius*radius*3.14 <br>
   &ensp;&ensp;  <b>return area</b>
-  <br>
+  <br> <br>
   - 매개변수 : 함수 정의시 입력 변수<br>
   - 반환값 : 함수 정의시 수행후 출력 값<br>
   
 <li>함수 호출 - 함수이름(인수) <br>
    &ensp; result = get_area(10)
-   <br>
+   <br> <br>
   - 인수 : 함수 호출시 입력되는 실제 값<br>
 </li>
 <li>키워드 인수, 디폴트 인수, 가변 인수 
