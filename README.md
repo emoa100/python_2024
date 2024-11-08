@@ -29,8 +29,6 @@
 </li>
 </ul>
 
-<br>
-
 <hr size = "10px", width ="500px">
 
 <br>
