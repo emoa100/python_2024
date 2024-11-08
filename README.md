@@ -193,21 +193,21 @@
 </li>
 <br>
 <li>전역변수 : 함수외에서 생성된 변수 <br>
-  &emsp;&emsp; 모든 함수에서 접근 가능
+  &emsp;&emsp; 모든 함수에서 접근 가능<br>
   &emsp;&emsp; 함수 내에서 변경시 - global 키워드 사용 <br>
 </li>
 <br>
 <li>모듈:함수 정의/변수 모아 놓은 파일 <br>
-  &emsp;&emsp; import 모듈이름
-  &emsp;&emsp; import 모듈이름 as 별명
-  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름
-  &emsp;&emsp; from 모듈이름 import *
-  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름 as 별명
+  &emsp;&emsp; import 모듈이름<br>
+  &emsp;&emsp; import 모듈이름 as 별명<br>
+  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름<br>
+  &emsp;&emsp; from 모듈이름 import *<br>
+  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름 as 별명<br>
 </li>
 <br>
 <li>표준 모듈 :파이썬이 제공한 모듈 <br>
-  &emsp;&emsp; import random;          # 난수모듈
-  &emsp;&emsp; random.randint(1, 6)    # 정수 난수함수
+  &emsp;&emsp; import random;          # 난수모듈<br>
+  &emsp;&emsp; random.randint(1, 6)    # 정수 난수함수<br>
 </li>
 </ul>
 
