@@ -16,11 +16,11 @@
 </li>
 <br>
 <li>모듈(함수 정의/변수 모아 놓은 파일) 가져오기 <br>
-  &emsp;&emsp; import 모듈이름<br>
-  &emsp;&emsp; import 모듈이름 as 별명<br>
-  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름<br>
-  &emsp;&emsp; from 모듈이름 import *<br>
-  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름 as 별명<br>
+  &emsp;&emsp; import myModule <br>
+  &emsp;&emsp; import myModule as 별명<br>
+  &emsp;&emsp; from myModule import myFunc<br>
+  &emsp;&emsp; from myModule import *<br>
+  &emsp;&emsp; from myModule import myFunc as 별명<br>
 </li>
 <br>
 <li>표준 모듈 :파이썬이 제공한 모듈 <br>
@@ -200,11 +200,11 @@
 </li>
 <br>
 <li>모듈(함수 정의/변수 모아 놓은 파일) 가져오기 <br>
-  &emsp;&emsp; import 모듈이름<br>
-  &emsp;&emsp; import 모듈이름 as 별명<br>
-  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름<br>
-  &emsp;&emsp; from 모듈이름 import *<br>
-  &emsp;&emsp; from 모듈이름 import 모듈내 함수이름 as 별명<br>
+  &emsp;&emsp; import myModule <br>
+  &emsp;&emsp; import myModule as 별명<br>
+  &emsp;&emsp; from myModule import myFunc<br>
+  &emsp;&emsp; from myModule import *<br>
+  &emsp;&emsp; from myModule import myFunc as 별명<br>
 </li>
 <br>
 <li>표준 모듈 :파이썬이 제공한 모듈 <br>
