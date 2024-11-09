@@ -24,8 +24,8 @@
 </li>
 <br>
 <li>표준 모듈 :파이썬이 제공한 모듈 <br>
-  &emsp;&emsp; import random;          # 난수모듈<br>
-  &emsp;&emsp; random.randint(1, 6)    # 정수 난수함수<br>
+  &emsp;&emsp; import random;   &emsp;       # 난수모듈<br>
+  &emsp;&emsp; random.randint(1, 6) &emsp;   # 정수 난수함수<br>
 </li>
 </ul>
 
@@ -208,8 +208,8 @@
 </li>
 <br>
 <li>표준 모듈 :파이썬이 제공한 모듈 <br>
-  &emsp;&emsp; import random;          # 난수모듈<br>
-  &emsp;&emsp; random.randint(1, 6)    # 정수 난수함수<br>
+  &emsp;&emsp; import random;   &emsp;       # 난수모듈<br>
+  &emsp;&emsp; random.randint(1, 6) &emsp;   # 정수 난수함수<br>
 </li>
 </ul>
 
