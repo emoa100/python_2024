@@ -1,6 +1,6 @@
 # python 프로그래밍 입문
 파이썬 프로그래밍 입문 수강자가 핵심 내용을 쉽게 알고, 실행 시켜 보는 페이지 입니다. <br> <br>
-핵심 : 변수 - 연산자 - 문자열 - 조건문(if) - 반복문(while,for) - 함수 - 모듈 - 객체 - 파일
+핵심 : 변수 - 연산자 - 문자열 - 조건문(if) - 반복문(while,for) - 함수 - 모듈 - 복합자료형(리스트, 딕셔너리, 튜플) - 파일 - 객체
 
 <hr size = "10px", width ="500px">
 
@@ -226,6 +226,7 @@
 </ul>
 
 <br>
+
 ## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
 <ul>
 <li>  리스트 : 여러 데이터를 하나로 묶어 순번에 따라 저장 <br>
