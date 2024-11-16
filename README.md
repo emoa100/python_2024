@@ -4,28 +4,34 @@
 
 <hr size = "10px", width ="500px">
 
-## [10주차 실습&nbsp;-&nbsp;함수와모듈](https://github.com/baek-study/python/blob/main/source/week10.ipynb)
+## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
 <ul>
-<li>  지역변수 - 함수내에서 생성된 변수 & 매개변수 <br>
-  &emsp;&emsp; 함수내에서 사용가능, 함수외에서 사용 불가
+<li>  리스트 : 여러 데이터를 하나로 묶어 순번에 따라 저장 <br>
+  &emsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
+  &emsp; 인덱싱[index[ : temps[3], temps[-1]  <br>
+  &emsp; 슬라이싱[start:end:step]: temps[2:4:1]  <br>
+  &emsp; 앝은복사 : list1 = temps # 주소 복사  <br>
+  &emsp; 깊은복사 : list2 = list(tmeps) or temps[:) # 요소도 복사  <br>
+  &emsp; 연산 +(연결), *(요소반복), in/not in(존재여부)  
+  
 </li>
 <br>
-<li>전역변수 : 함수외에서 생성된 변수 <br>
-  &emsp;&emsp; 모든 함수에서 접근 가능<br>
-  &emsp;&emsp; 함수 내에서 변경시 - global 키워드 사용 <br>
+<li> 리스트 수정<br>
+  &emsp; 요소 하나 : temps[3] = 5 <br>
+  &emsp; 요소 여러개: temps[2:4] = [100, 200, 300] <br>
+  &emsp; 됴소 하나를 리스트로 수정 : temp[3] = [1, 2] # 주의
 </li>
 <br>
-<li>모듈(함수 정의/변수 모아 놓은 파일) 가져오기 <br>
-  &emsp;&emsp; <b>import</b> myModule <br>
-  &emsp;&emsp; <b>import</b> myModule <b>as</b> 별명<br>
-  &emsp;&emsp; <b>from</b> myModule <b>import</b> myFunc<br>
-  &emsp;&emsp; <b>from</b> myModule <b>import *</b><br>
-  &emsp;&emsp; <b>from</b> myModule <b>import</b> myFunc <b>as</b> 별명<br>
+<li>리스트 반복 <br>
+  &emsp;for element in temps : print(element) <br>
+  &emsp;&emsp;- 리스트 객체 이용 - 변수는 요소 값 <br>
+  &emsp;for i in rangle(0, len(temps)) : print(temps[i]) <br>
+  &emsp;&emsp;-range() 함수 이용 - 변수는 인덱스 값 <br>
 </li>
 <br>
-<li>표준 모듈 :파이썬이 제공한 모듈 <br>
-  &emsp;&emsp; import random;   &emsp;       # 난수모듈<br>
-  &emsp;&emsp; random.randint(1, 6) &nbsp;   # 정수 난수함수<br>
+<li>리스트 함수 <br>
+  &emsp;내장함수 : len(리스트 이름)   &emsp;       # 리스트 길이<br>
+  &emsp;메소드 : temps.append(25)    &emsp;  # 리스트 끝에 추가<br>
 </li>
 </ul>
 
@@ -224,31 +230,31 @@
 ## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
 <ul>
 <li>  리스트 : 여러 데이터를 하나로 묶어 순번에 따라 저장 <br>
-  &emsp;&emsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
-  &emsp;&emsp; 인덱싱[index[ : temps[3], temps[-1]  <br>
-  &emsp;&emsp; 슬라이싱[start:end:step]: temps[2:4:1]  <br>
-  &emsp;&emsp; 앝은복사 : list1 = temps # 주소 복사  <br>
-  &emsp;&emsp; 깊은복사 : list2 = list(tmeps) or temps[:) # 요소도 복사  <br>
-  &emsp;&emsp; 연산 +(연결), *(요소반복), in/not in(존재여부)  
+  &emsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
+  &emsp; 인덱싱[index[ : temps[3], temps[-1]  <br>
+  &emsp; 슬라이싱[start:end:step]: temps[2:4:1]  <br>
+  &emsp; 앝은복사 : list1 = temps # 주소 복사  <br>
+  &emsp; 깊은복사 : list2 = list(tmeps) or temps[:) # 요소도 복사  <br>
+  &emsp; 연산 +(연결), *(요소반복), in/not in(존재여부)  
   
 </li>
 <br>
 <li> 리스트 수정<br>
-  &emsp;&emsp; 요소 하나 : temps[3] = 5 <br>
-  &emsp;&emsp; 요소 여러개: temps[2:4] = [100, 200, 300] <br>
-  &emsp;&emsp; 됴소 하나를 리스트로 수정 : temp[3] = [1, 2] # 주의
+  &emsp; 요소 하나 : temps[3] = 5 <br>
+  &emsp; 요소 여러개: temps[2:4] = [100, 200, 300] <br>
+  &emsp; 됴소 하나를 리스트로 수정 : temp[3] = [1, 2] # 주의
 </li>
 <br>
 <li>리스트 반복 <br>
-  &emsp;&emsp;for element in temps : print(element) <br>
-  &emsp;&emsp;&emsp;리스트 객체 이용 - 변수는 요소 값 <br>
-  &emsp;&emsp;for i in rangle(0, len(temps)) : print(temps[i]) <br>
-  &emsp;&emsp;&emsp;range() 함수 이용 - 변수는 인덱스 값 <br>
+  &emsp;for element in temps : print(element) <br>
+  &emsp;&emsp;- 리스트 객체 이용 - 변수는 요소 값 <br>
+  &emsp;for i in rangle(0, len(temps)) : print(temps[i]) <br>
+  &emsp;&emsp;-range() 함수 이용 - 변수는 인덱스 값 <br>
 </li>
 <br>
 <li>리스트 함수 <br>
-  &emsp;&emsp;내장함수 : len(리스트 이름)   &emsp;       # 리스트 길이<br>
-  &emsp;&emsp;메소드 : temps.append(25)    &emsp;  # 리스트 끝에 추가<br>
+  &emsp;내장함수 : len(리스트 이름)   &emsp;       # 리스트 길이<br>
+  &emsp;메소드 : temps.append(25)    &emsp;  # 리스트 끝에 추가<br>
 </li>
 </ul>
 
