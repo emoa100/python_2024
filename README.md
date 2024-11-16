@@ -211,6 +211,45 @@
   &emsp;&emsp; import random;   &emsp;       # 난수모듈<br>
   &emsp;&emsp; random.randint(1, 6) &nbsp;   # 정수 난수함수<br>
 </li>
+
+<li>외부 모듈 :파이썬 개발자들이 개발하여 공유 <br>
+  &emsp;&emsp; pip install 라이브러리이름   &emsp;       # 외부 모듈 설치 후 사용<br>
+  &emsp;&emsp; ex) pip install matplotlib  # 그래프 그리는 라이브러리<br>
+  &emsp;&emsp; ex) pip install pillow      # 이미지 처리 라이브러리(<br>
+</li>
+</ul>
+
+<br>
+
+## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
+<ul>
+<li>  리스트 : 여러 데이터를 하나로 묶어 순번에 따라 저장 <br>
+  &emsp;&emsp; 생성 : temps=[28, 31, 33, 35, 27, 26, 25]
+  &emsp;&emsp; 인덱싱[index[ : temps[3], temps[-1]
+  &emsp;&emsp; 슬라이싱[start:end:step]: temps[2:5:1]
+  &emsp;&emsp; 앝은 복사 : list1 = temps # 주소만 복사
+  &emsp;&emsp; 깊은 복사 : list2 = list(tmeps) or temps[:) # 요소도 복사
+  &emsp;&emsp; 연산 +(연결), *(요소반복), in/not in(존재여부)  
+  
+</li>
+<br>
+<li> 리스트 수정<br>
+  &emsp;&emsp; 요소 하나 수정 : temps[3] = 5 <br>
+  &emsp;&emsp; 요소 여러개 수정 : temps[2:4] = [100, 200, 300] <br>
+  &emsp;&emsp; 요소 하나를 리스트로 수정 : temp[3] = [100, 200, 300] # 주의 리스트 내 리스트
+</li>
+<br>
+<li>리스트 반복 <br>
+  &emsp;&emsp;for element in temps : print(element) <br>
+  &emsp;&emsp;&emsp;리스트 객체 이용 - 변수는 요소 값 <br>
+  &emsp;&emsp;for i in rangle(0, len(temps)) : print(temps[i]) <br>
+  &emsp;&emsp;&emsp;range() 함수 이용 - 변수는 인덱스 값 <br>
+</li>
+<br>
+<li>리스트 함수 <br>
+  &emsp;&emsp;내장함수 : len(리스트 이름)   &emsp;       # 리스트 길이<br>
+  &emsp;&emsp;메소드 : temps.append(25)    &emsp;  # 리스트 끝에 추가<br>
+</li>
 </ul>
 
 <br>
