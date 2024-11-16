@@ -169,13 +169,13 @@
   &ensp; <b>def get_area(radius) :</b> <br>
   &ensp; &ensp; area = radius*radius*3.14 <br>
   &ensp;&ensp;  <b>return area</b>
-  <br> <br>
+  <br>
   - 매개변수 : 함수 정의시 입력 변수<br>
   - 반환값 : 함수 정의시 수행후 출력 값<br>
 </li>  
 <li>함수 호출 - 함수이름(인수) <br>
    &ensp; result = get_area(10)
-   <br> <br>
+   <br>
   - 인수 : 함수 호출시 입력되는 실제 값<br>
 </li>
 <li>키워드 인수, 디폴트 인수, 가변 인수 
@@ -224,19 +224,19 @@
 ## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
 <ul>
 <li>  리스트 : 여러 데이터를 하나로 묶어 순번에 따라 저장 <br>
-  &emsp;&emsp; 생성 : temps=[28, 31, 33, 35, 27, 26, 25]
-  &emsp;&emsp; 인덱싱[index[ : temps[3], temps[-1]
-  &emsp;&emsp; 슬라이싱[start:end:step]: temps[2:5:1]
-  &emsp;&emsp; 앝은 복사 : list1 = temps # 주소만 복사
-  &emsp;&emsp; 깊은 복사 : list2 = list(tmeps) or temps[:) # 요소도 복사
+  &emsp;&emsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
+  &emsp;&emsp; 인덱싱[index[ : temps[3], temps[-1]  <br>
+  &emsp;&emsp; 슬라이싱[start:end:step]: temps[2:4:1]  <br>
+  &emsp;&emsp; 앝은복사 : list1 = temps # 주소 복사  <br>
+  &emsp;&emsp; 깊은복사 : list2 = list(tmeps) or temps[:) # 요소도 복사  <br>
   &emsp;&emsp; 연산 +(연결), *(요소반복), in/not in(존재여부)  
   
 </li>
 <br>
 <li> 리스트 수정<br>
-  &emsp;&emsp; 요소 하나 수정 : temps[3] = 5 <br>
-  &emsp;&emsp; 요소 여러개 수정 : temps[2:4] = [100, 200, 300] <br>
-  &emsp;&emsp; 요소 하나를 리스트로 수정 : temp[3] = [100, 200, 300] # 주의 리스트 내 리스트
+  &emsp;&emsp; 요소 하나 : temps[3] = 5 <br>
+  &emsp;&emsp; 요소 여러개: temps[2:4] = [100, 200, 300] <br>
+  &emsp;&emsp; 됴소 하나를 리스트로 수정 : temp[3] = [1, 2] # 주의
 </li>
 <br>
 <li>리스트 반복 <br>
