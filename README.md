@@ -4,35 +4,31 @@
 
 <hr size = "10px", width ="500px">
 
-## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
+## [12주차 실습&nbsp;-&nbsp;리스트메소드&딕셔너리](https://github.com/baek-study/python/blob/main/source/week12.ipynb)
 <ul>
-<li>  리스트 : 여러 데이터를 하나로 묶어 순번에 따라 저장 <br>
-  &emsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
-  &emsp; 인덱싱[index] : temps[3], temps[-1]  <br>
-  &emsp; 슬라이싱[start:end:step]: temps[2:4:1]  <br>
-  &emsp; 앝은복사 : list1 = temps # 주소 복사  <br>
-  &emsp; 깊은복사 : list2 = list(tmeps) or temps[:) # 요소도 복사  <br>
-  &emsp; 연산 : +(연결), *(요소반복), in/not in(존재여부)  
-  
+<li>  리스트 메소드 : 리스트 객체의 함수 <br>
+  &emsp;추가 : append(값), insert(삽입위치, 값)<br>
+  &emsp;삭제 : del 리스트[인덱스], remove(값), clear(), [:]<br>
+  &emsp;찾기 : index(값)<br>
+  &emsp;개수 : count(값) # 없는 경우 0
 </li>
 <br>
-<li> 리스트 수정<br>
-  &emsp; 요소 하나 수정: temps[3] = 5 <br>
-  &emsp; 요소 여러개: temps[2:4] = [1, 2, 3] <br>
-  &emsp; 요소 하나를 리스트로 수정 : temp[1] = [1, 2] # 주의
+<li> 딕셔너리: 키와 쌍으로 구성, 순서없음, 키는 유일<br>
+  &emsp;생성 : dic = {키1:값1, 키2:값2,... }<br>
+  &emsp;요소접근 : dic[키], dic.get(키)<br>
+  &emsp;추가 : dic[새로운 키] = 값<br>
+  &emsp;수정 : dic[기존 키] = 새로운 값<br>
+  &emsp;삭제 : del dic[키], dic.clear()<br>
+  &emsp;유효성 검사 : 키 in dic
 </li>
 <br>
 <li>리스트 반복 <br>
-  &emsp;for element in temps : print(element) <br>
-  &emsp;&emsp;- 리스트 객체 이용 - 변수는 요소 값 <br>
-  &emsp;for i in rangle(0, len(temps)) : print(temps[i]) <br>
-  &emsp;&emsp;-range() 함수 이용 - 변수는 인덱스 값 <br>
+  &emsp;키 목록 : d.keys()<br>
+  &emsp;값 목록 : d.values()<br>
+  &emsp;키:값 목록 : d.items()<br>
+  &emsp;for 반복분 : dic 객체 이용, 키 목록 이용
 </li>
 <br>
-<li>리스트 함수 <br>
-  &emsp;내장함수 : len(리스트 이름)   &emsp;       # 리스트 길이<br>
-  &emsp;메소드 : temps.append(25)    &emsp;  # 리스트 끝에 추가<br>
-</li>
 </ul>
 
 <hr size = "10px", width ="500px">
