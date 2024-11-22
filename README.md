@@ -28,7 +28,6 @@
   &emsp;키:값 목록 : d.items()<br>
   &emsp;for 반복분 : dic 객체 이용, 키 목록 이용
 </li>
-<br>
 </ul>
 
 <hr size = "10px", width ="500px">
@@ -251,6 +250,34 @@
 <li>리스트 함수 <br>
   &emsp;내장함수 : len(리스트 이름)   &emsp;       # 리스트 길이<br>
   &emsp;메소드 : temps.append(25)    &emsp;  # 리스트 끝에 추가<br>
+</li>
+</ul>
+
+<br>
+
+## [12주차 실습&nbsp;-&nbsp;리스트메소드&딕셔너리](https://github.com/baek-study/python/blob/main/source/week12.ipynb)
+<ul>
+<li>  리스트 메소드 : 리스트 객체의 함수 <br>
+  &emsp;추가 : append(값), insert(삽입위치, 값)<br>
+  &emsp;삭제 : del 리스트[인덱스], remove(값), clear(), [:]<br>
+  &emsp;찾기 : index(값)<br>
+  &emsp;개수 : count(값) # 없는 경우 0
+</li>
+<br>
+<li> 딕셔너리: 키와 쌍으로 구성, 순서없음, 키는 유일<br>
+  &emsp;생성 : dic = {키1:값1, 키2:값2,... }<br>
+  &emsp;요소접근 : dic[키], dic.get(키)<br>
+  &emsp;추가 : dic[새로운 키] = 값<br>
+  &emsp;수정 : dic[기존 키] = 새로운 값<br>
+  &emsp;삭제 : del dic[키], dic.clear()<br>
+  &emsp;유효성 검사 : 키 in dic
+</li>
+<br>
+<li>리스트 반복 <br>
+  &emsp;키 목록 : d.keys()<br>
+  &emsp;값 목록 : d.values()<br>
+  &emsp;키:값 목록 : d.items()<br>
+  &emsp;for 반복분 : dic 객체 이용, 키 목록 이용
 </li>
 </ul>
 
