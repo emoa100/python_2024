@@ -53,7 +53,6 @@
  </li>
 </ul>
 <br>
-<img src = "https://github.com/baek-study/python/blob/main/summary/lec2.JPG" width = 400 height=300>
 
 
 ## [3주차 실습&nbsp;-&nbsp;변수와 연산자](https://github.com/baek-study/python/blob/main/source/week3.ipynb)
