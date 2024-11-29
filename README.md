@@ -52,7 +52,7 @@
     &ensp; - &nbsp; 키워드 end: print('hello', end=' ') 
  </li>
 </ul>
-![image](https://file.newswire.co.kr/data/datafile2/thumb_480/2008/12/2039103817_20081204102208_5415926347.jpg)
+
 <br>
 
 ## [3주차 실습&nbsp;-&nbsp;변수와 연산자](https://github.com/baek-study/python/blob/main/source/week3.ipynb)
