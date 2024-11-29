@@ -39,7 +39,7 @@
 
 <br>
 
-## [2주차 실습&nbsp;-&nbsp;기본 구조](https://github.com/baek-study/python/blob/main/source/week2.ipynb) &emsp; &emsp; [요약](https://github.com/baek-study/python/blob/main/summary/lec2.ipynb)
+## [2주차 실습&nbsp;-&nbsp;기본 구조](https://github.com/baek-study/python/blob/main/source/week2.ipynb) &emsp; &emsp; [- &nbsp; 1Page 요약](https://github.com/baek-study/python/blob/main/summary/lec2.jpg)
 <ul>
   <li>주석: 한줄(#), 여러줄(''', """) </li>
   <li>문장: 처리를 수행하는 명령어 <br>
