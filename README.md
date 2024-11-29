@@ -4,7 +4,7 @@
 
 <hr size = "10px", width ="500px">
 
-## [12주차 실습&nbsp;-&nbsp;리스트메소드&딕셔너리](https://github.com/baek-study/python/blob/main/source/week12.ipynb)
+## [12주차 실습&nbsp;-&nbsp;리스트메소드&딕셔너리](https://github.com/baek-study/python/blob/main/source/week12.ipynb)  
 <ul>
 <li>  리스트 메소드 : 리스트 객체의 함수 <br>
   &emsp;추가 : append(값), insert(삽입위치, 값)<br>
@@ -39,7 +39,7 @@
 
 <br>
 
-## [2주차 실습&nbsp;-&nbsp;기본 구조](https://github.com/baek-study/python/blob/main/source/week2.ipynb)
+## [2주차 실습&nbsp;-&nbsp;기본 구조](https://github.com/baek-study/python/blob/main/source/week2.ipynb) &emsp; &emsp; [요약](https://github.com/baek-study/python/blob/main/summary/lec2.ipynb)
 <ul>
   <li>주석: 한줄(#), 여러줄(''', """) </li>
   <li>문장: 처리를 수행하는 명령어 <br>
