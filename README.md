@@ -52,8 +52,8 @@
     &ensp; - &nbsp; 키워드 end: print('hello', end=' ') 
  </li>
 </ul>
-
 <br>
+![1page 요약](https://github.com/baek-study/python/blob/main/summary/lec2.JPG)
 
 ## [3주차 실습&nbsp;-&nbsp;변수와 연산자](https://github.com/baek-study/python/blob/main/source/week3.ipynb)
 <ul>
