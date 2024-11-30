@@ -29,7 +29,6 @@
 </li>
 </ul>
 
-<img src = "/summary/lec13.PNG" >
 
 <hr size = "10px", width ="500px">
 
