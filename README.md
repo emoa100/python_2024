@@ -191,31 +191,31 @@
 ## [10주차 실습&nbsp;-&nbsp;함수와모듈](https://github.com/baek-study/python/blob/main/source/week10.ipynb)
 <ul>
 <li>  지역변수 - 함수내에서 생성된 변수 & 매개변수 <br>
-  &nbsp;&nbsp; 함수내에서 사용가능, 함수외에서 사용 불가
+  &nbsp; 함수내에서 사용가능, 함수외에서 사용 불가
 </li>
 <br>
 <li>전역변수 : 함수외에서 생성된 변수 <br>
-  &nbsp;&nbsp; 모든 함수에서 접근 가능<br>
-  &nbsp;&nbsp; 함수 내에서 변경시 - global 키워드 사용 <br>
+  &nbsp; 모든 함수에서 접근 가능<br>
+  &nbsp; 함수 내에서 변경시 - global 키워드 사용 <br>
 </li>
 <br>
 <li>모듈(함수 정의/변수 모아 놓은 파일) 가져오기 <br>
-  &nbsp;&nbsp; <b>import</b> myModule <br>
-  &nbsp;&nbsp; <b>import</b> myModule <b>as</b> 별명<br>
-  &nbsp;&nbsp; <b>from</b> myModule <b>import</b> myFunc<br>
-  &nbsp;&nbsp; <b>from</b> myModule <b>import *</b><br>
-  &nbsp;&nbsp; <b>from</b> myModule <b>import</b> myFunc <b>as</b> 별명<br>
+  &nbsp; <b>import</b> myModule <br>
+  &nbsp; <b>import</b> myModule <b>as</b> 별명<br>
+  &nbsp; <b>from</b> myModule <b>import</b> myFunc<br>
+  &nbsp; <b>from</b> myModule <b>import *</b><br>
+  &nbsp; <b>from</b> myModule <b>import</b> myFunc <b>as</b> 별명<br>
 </li>
 <br>
 <li>표준 모듈 :파이썬이 제공한 모듈 <br>
-  &nbsp;&nbsp; import random;   &emsp;       # 난수모듈<br>
-  &nbsp;&nbsp; random.randint(1, 6) &nbsp;   # 정수 난수함수<br>
+  &nbsp; import random;   &emsp;       # 난수모듈<br>
+  &nbsp; random.randint(1, 6) &nbsp;   # 정수 난수함수<br>
 </li>
 
 <li>외부 모듈 :파이썬 개발자들이 개발하여 공유 <br>
-  &nbsp;&nbsp; pip install 라이브러리이름   &emsp;       # 외부 모듈 설치 후 사용<br>
-  &nbsp;&nbsp; ex) pip install matplotlib  # 그래프 그리는 라이브러리<br>
-  &nbsp;&nbsp; ex) pip install pillow      # 이미지 처리 라이브러리(<br>
+  &nbsp; pip install 라이브러리이름   &emsp;       # 외부 모듈 설치 후 사용<br>
+  &nbsp; ex) pip install matplotlib  # 그래프 그리는 라이브러리<br>
+  &nbsp; ex) pip install pillow      # 이미지 처리 라이브러리(<br>
 </li>
 </ul>
 
@@ -241,9 +241,9 @@
 <br>
 <li>리스트 반복 <br>
   &nbsp;for element in temps : print(element) <br>
-  &nbsp;&nbsp;- 리스트 객체 이용 - 변수는 요소 값 <br>
+  &nbsp;- 리스트 객체 이용 - 변수는 요소 값 <br>
   &nbsp;for i in rangle(0, len(temps)) : print(temps[i]) <br>
-  &nbsp;&nbsp;-range() 함수 이용 - 변수는 인덱스 값 <br>
+  &nbsp;-range() 함수 이용 - 변수는 인덱스 값 <br>
 </li>
 <br>
 <li>리스트 함수 <br>
