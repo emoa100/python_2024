@@ -15,7 +15,7 @@
 </li>
 <br>
 <li> 딕셔너리와 함수<br>
-  &emsp;매개변수 : 딕셔너리와 키 <br>
+  &emsp;매개변수 : 딕셔너리와 키 필요 <br>
   &emsp;- def func3(dic, key) :<br>
   &emsp;- 유효성 검사 필요 (key in dic)
 </li>
