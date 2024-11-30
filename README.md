@@ -257,28 +257,53 @@
 ## [12주차 실습&nbsp;-&nbsp;리스트메소드&딕셔너리](https://github.com/baek-study/python/blob/main/source/week12.ipynb)
 <ul>
 <li>  리스트 메소드 : 리스트 객체의 함수 <br>
-  &emsp;추가 : append(값), insert(삽입위치, 값)<br>
-  &emsp;삭제 : del 리스트[인덱스], remove(값), clear(), [:]<br>
-  &emsp;찾기 : index(값)<br>
-  &emsp;개수 : count(값) # 없는 경우 0
+  &nbsp;;추가 : append(값), insert(삽입위치, 값)<br>
+  &nbsp;삭제 : del 리스트[인덱스], remove(값), clear(), [:]<br>
+  &nbsp;찾기 : index(값)<br>
+  &nbsp;개수 : count(값) # 없는 경우 0
 </li>
 <br>
 <li> 딕셔너리: 키와 쌍으로 구성, 순서없음, 키는 유일<br>
-  &emsp;생성 : dic = {키1:값1, 키2:값2,... }<br>
-  &emsp;요소접근 : dic[키], dic.get(키)<br>
-  &emsp;추가 : dic[새로운 키] = 값<br>
-  &emsp;수정 : dic[기존 키] = 새로운 값<br>
-  &emsp;삭제 : del dic[키], dic.clear()<br>
-  &emsp;유효성 검사 : 키 in dic
+  &nbsp;생성 : dic = {키1:값1, 키2:값2,... }<br>
+  &nbsp;요소접근 : dic[키], dic.get(키)<br>
+  &nbsp;추가 : dic[새로운 키] = 값<br>
+  &nbsp;수정 : dic[기존 키] = 새로운 값<br>
+  &nbsp;삭제 : del dic[키], dic.clear()<br>
+  &nbsp;유효성 검사 : 키 in dic
 </li>
 <br>
 <li>리스트 반복 <br>
-  &emsp;키 목록 : d.keys()<br>
-  &emsp;값 목록 : d.values()<br>
-  &emsp;키:값 목록 : d.items()<br>
-  &emsp;for 반복분 : dic 객체 이용, 키 목록 이용
+  &nbsp;키 목록 : d.keys()<br>
+  &nbsp;값 목록 : d.values()<br>
+  &nbsp;키:값 목록 : d.items()<br>
+  &nbsp;for 반복분 : dic 객체 이용, 키 목록 이용
 </li>
 </ul>
 
 <br>
+
+## [13주차 실습&nbsp;-&nbsp;리스트와함수&파일](https://github.com/baek-study/python/blob/main/source/week13.ipynb)  
+<ul>
+<li>  리스트와 함수 <br>
+  &nbsp;매개변수 : def func1(list)  <br>
+  &nbsp;- 함수내 리스트 요소 변경 가능<br>
+  &nbsp;- 함수내 리스트 객체 변경 - 새로운 객체로 간주<br>
+  &nbsp;리턴형 : def func2():... return lst<br>
+  &nbsp;- result = func2()
+</li>
+<br>
+<li> 딕셔너리와 함수<br>
+  &nbsp;매개변수 : 딕셔너리와 키 필요 <br>
+  &nbsp;- def func3(dic, key) :<br>
+  &nbsp;- 유효성 검사 필요 (key in dic)
+</li>
+<br>
+<li>파일  <br>
+  &nbsp;3단계: open()-read()-close()<br>
+  &nbsp;파일읽기:in = open("file", <b>"r"</b>)<br>
+  &nbsp;- in.read(), readlines(), readline()<br>
+  &nbsp;파일쓰기:out = open("file", <b>"w"</b>)<br>
+  &nbsp;- out.write(), writelines()
+</li>
+</ul>
 
