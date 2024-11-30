@@ -7,24 +7,24 @@
 ## [13주차 실습&nbsp;-&nbsp;리스트와함수&파일](https://github.com/baek-study/python/blob/main/source/week13.ipynb)  
 <ul>
 <li>  리스트와 함수 <br>
-  &emsp;매개변수 : def func1(list)  
-  &emsp;- 함수내 리스트 요소 변경 가능
-  &emsp;- 함수내 리스트 객체 변경 - 새로운 객체로 간주
-  &emsp;리턴형 : def func2(): 문장  return lst
+  &emsp;매개변수 : def func1(list)  <br>
+  &emsp;- 함수내 리스트 요소 변경 가능<br>
+  &emsp;- 함수내 리스트 객체 변경 - 새로운 객체로 간주<br>
+  &emsp;리턴형 : def func2(): 문장  return lst<br>
   &emsp;- result = func2()
 </li>
 <br>
 <li> 딕셔너리와 함수<br>
-  &emsp;매개변수 : 딕셔너리와 키 
-  &emsp;- def func3(dic, key) :
+  &emsp;매개변수 : 딕셔너리와 키 <br>
+  &emsp;- def func3(dic, key) :<br>
   &emsp;- 유효성 검사 필요 (key in dic)
 </li>
 <br>
 <li>파일  <br>
-  &emsp;3단계: open()-read()-close()
-  &emsp;파일읽기:in = open("file", <b>"r"</b>)
-  - in.read(), readlines(), readline()
-  &emsp;파일쓰기:out = open("file", <b>"w"</b>)
+  &emsp;3단계: open()-read()-close()<br>
+  &emsp;파일읽기:in = open("file", <b>"r"</b>)<br>
+  - in.read(), readlines(), readline()<br>
+  &emsp;파일쓰기:out = open("file", <b>"w"</b>)<br>
   - out.write(), writelines()
 </li>
 </ul>
