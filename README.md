@@ -257,7 +257,7 @@
 ## [12주차 실습&nbsp;-&nbsp;리스트메소드&딕셔너리](https://github.com/baek-study/python/blob/main/source/week12.ipynb)
 <ul>
 <li>  리스트 메소드 : 리스트 객체의 함수 <br>
-  &nbsp;;추가 : append(값), insert(삽입위치, 값)<br>
+  &nbsp;추가 : append(값), insert(삽입위치, 값)<br>
   &nbsp;삭제 : del 리스트[인덱스], remove(값), clear(), [:]<br>
   &nbsp;찾기 : index(값)<br>
   &nbsp;개수 : count(값) # 없는 경우 0
