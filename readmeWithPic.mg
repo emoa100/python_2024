@@ -28,6 +28,7 @@
   &nbsp;- out.write(), writelines()
 </li>
 </ul>
+
 <img src = "/summary/lec13.PNG" width = 400 height=300>
 
 <hr size = "10px", width ="500px">
