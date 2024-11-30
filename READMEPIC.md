@@ -27,8 +27,9 @@
   &nbsp;파일쓰기:out = open("file", <b>"w"</b>)<br>
   &nbsp;- out.write(), writelines()
 </li>
+  <img src="/summary/lec13.PNG" style="max-width:100%; height:auto">
 </ul>
-<img src="/summary/lec13.PNG" style="max-width:100%; height:auto">
+
 <hr size = "10px", width ="500px">
 
 <br>
