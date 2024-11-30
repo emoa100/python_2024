@@ -10,7 +10,7 @@
   &emsp;매개변수 : def func1(list)  <br>
   &emsp;- 함수내 리스트 요소 변경 가능<br>
   &emsp;- 함수내 리스트 객체 변경 - 새로운 객체로 간주<br>
-  &emsp;리턴형 : def func2(): 문장  return lst<br>
+  &emsp;리턴형 : def func2():... return lst<br>
   &emsp;- result = func2()
 </li>
 <br>
