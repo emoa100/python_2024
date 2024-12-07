@@ -8,10 +8,10 @@
 <ul>
 <li>  파일2 <br>
   - 파일 읽기: 파일 객체(변수) 이용 <br>
-  &nbsp;for line in infile:<br>
-  &nbsp;&emsp; print(line.strip())<br>
+  &ensp;for line in infile:<br>
+  &ensp;&emsp; print(line.strip())<br>
   - with 명령문: 파일 안전하게 처리 <br>
-  &nbsp;with open('fileName', 'r') as file:
+  &ensp;with open('fileName', 'r') as file:
 </li>
 <br>
 <li> 클래스와 객체 <br>
@@ -20,17 +20,17 @@
 </li>
 <br>
 <li>클래스 정의 - 메소드 정의  <br>
-  - class Counter : <br> 
+  - class Counter : # class 클래스이름: <br> 
   &emsp; def func1(self, ... ) : <br> 
   &emsp;&emsp; self.count = 1, ...  <br> 
 </li>
 <br>
 <li>객체 생성 & 객체 접근  <br>
   - 객체 생성 : 객체 = 클래스 이름()  <br> 
-  &nbsp; a = Counter() <br> 
+  &ensp; a = Counter() <br> 
   - 객체 접근 : . 연산자 이용 <br> 
-  &nbsp; a.func1()  # 메소드 접근
-  &nbsp; print(a.count) # 데이터 접근
+  &ensp; a.func1()  # 메소드 접근<br> 
+  &ensp; print(a.count) # 데이터 접근
 </li>
 <br>
 </ul>
