@@ -4,29 +4,35 @@
 
 <hr size = "10px", width ="500px">
 
-## [13주차 실습&nbsp;-&nbsp;리스트와함수&파일](https://github.com/baek-study/python/blob/main/source/week13.ipynb)  
+## [14주차 실습&nbsp;-&nbsp;파일2&클래스와객체](https://github.com/baek-study/python/blob/main/source/week14.ipynb)  
 <ul>
-<li>  리스트와 함수 <br>
-  &nbsp;매개변수 : def func1(list)  <br>
-  &nbsp;- 함수내 리스트 요소 변경 가능<br>
-  &nbsp;- 함수내 리스트 객체 변경 - 새로운 객체로 간주<br>
-  &nbsp;리턴형 : def func2():... return lst<br>
-  &nbsp;- result = func2()
+<li>  파일2 <br>
+  - 파일 읽기: 파일 객체(변수) 이용 <br>
+  &nbsp;for line in infile:<br>
+  &nbsp;&emsp; print(line.strip())<br>
+  - with 명령문: 파일 안전하게 처리 <br>
+  &nbsp;with open('fileName', 'r') as file:
 </li>
 <br>
-<li> 딕셔너리와 함수<br>
-  &nbsp;매개변수 : 딕셔너리와 키 필요 <br>
-  &nbsp;- def func3(dic, key) :<br>
-  &nbsp;- 유효성 검사 필요 (key in dic)
+<li> 클래스와 객체 <br>
+  - 클래스: 설계도, 데이터+메소드 <br>
+  - 객체 : 클래스에서 생성된 실체<br>
 </li>
 <br>
-<li>파일  <br>
-  &nbsp;3단계: open()-read()-close()<br>
-  &nbsp;파일읽기:in = open("file", <b>"r"</b>)<br>
-  &nbsp;- in.read(), readlines(), readline()<br>
-  &nbsp;파일쓰기:out = open("file", <b>"w"</b>)<br>
-  &nbsp;- out.write(), writelines()
+<li>클래스 정의 - 메소드 정의  <br>
+  - class Counter : <br> 
+  &emsp; def func1(self, ... ) : <br> 
+  &emsp;&emsp; self.count = 1, ...  <br> 
 </li>
+<br>
+<li>객체 생성 & 객체 접근  <br>
+  - 객체 생성 : 객체 = 클래스 이름()  <br> 
+  &nbsp; a = Counter() <br> 
+  - 객체 접근 : . 연산자 이용 <br> 
+  &nbsp; a.func1()  # 메소드 접근
+  &nbsp; print(a.count) # 데이터 접근
+</li>
+<br>
 </ul>
 
 <hr size = "10px", width ="500px">
@@ -305,5 +311,39 @@
   &nbsp;파일쓰기:out = open("file", <b>"w"</b>)<br>
   &nbsp;- out.write(), writelines()
 </li>
+</ul>
+
+
+<br>
+
+## [14주차 실습&nbsp;-&nbsp;파일2&클래스와객체](https://github.com/baek-study/python/blob/main/source/week14.ipynb)  
+<ul>
+<li>  파일2 <br>
+  - 파일 읽기: 파일 객체(변수) 이용 <br>
+  &nbsp;for line in infile:<br>
+  &nbsp;&emsp; print(line.strip())<br>
+  - with 명령문: 파일 안전하게 처리 <br>
+  &nbsp;with open('fileName', 'r') as file:
+</li>
+<br>
+<li> 클래스와 객체 <br>
+  - 클래스: 설계도, 데이터+메소드 <br>
+  - 객체 : 클래스에서 생성된 실체<br>
+</li>
+<br>
+<li>클래스 정의 - 메소드 정의  <br>
+  - class Counter : <br> 
+  &emsp; def func1(self, ... ) : <br> 
+  &emsp;&emsp; self.count = 1, ...  <br> 
+</li>
+<br>
+<li>객체 생성 & 객체 접근  <br>
+  - 객체 생성 : 객체 = 클래스 이름()  <br> 
+  &nbsp; a = Counter() <br> 
+  - 객체 접근 : . 연산자 이용 <br> 
+  &nbsp; a.func1()  # 메소드 접근
+  &nbsp; print(a.count) # 데이터 접근
+</li>
+<br>
 </ul>
 
