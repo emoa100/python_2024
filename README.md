@@ -22,7 +22,7 @@
 <li>클래스 정의 - 메소드 정의  <br>
   - <b>class</b> Counter : # class 이름: <br> 
   &emsp; def func1(<b>self</b>, ... ) : <br> 
-  &emsp;&emsp; <b>self.<b>count = 1, ...  <br> 
+  &emsp;&emsp; <b>self.</b>b>count = 1, ...  <br> 
 </li>
 <br>
 <li>객체 생성 & 객체 접근  <br>
@@ -335,7 +335,7 @@
 <li>클래스 정의 - 메소드 정의  <br>
   - <b>class</b> Counter : # class 이름: <br> 
   &emsp; def func1(<b>self</b>, ... ) : <br> 
-  &emsp;&emsp; <b>self.<b>count = 1, ...  <br> 
+  &emsp;&emsp; <b>self.</b>b>count = 1, ...  <br> 
 </li>
 <br>
 <li>객체 생성 & 객체 접근  <br>
