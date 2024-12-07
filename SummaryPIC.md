@@ -12,3 +12,4 @@
 <img src="/summary/lec11.PNG" style="max-width:100%; height:auto">
 <img src="/summary/lec12.PNG" style="max-width:100%; height:auto">
 <img src="/summary/lec13.PNG" style="max-width:100%; height:auto">
+<img src="/summary/lec14.png" style="max-width:100%; height:auto">
