@@ -90,7 +90,6 @@
     <li>산술: + - * / %(나머지) //(몫)</li>
     <li>대입: x=3; x=x+1; &ensp; # 왼쪽은 항상 변수이름 </li> 
     <li>복합: x+=3 &ensp;&ensp;&ensp;# x=x+3 같은의미 </li>
-    <li>타입변환: int(3.14), float(3)</li>
 </ul>
 
 <br>
