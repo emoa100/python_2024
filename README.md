@@ -83,6 +83,7 @@
    <li>키보드를 통해 입력한 값을 하나의 '문자열' 형태로 반환</li>
     <li> msg = input('[안내메시지] 나이는?')&ensp;#문자열로 반환</li>
     <li> age = int(msg)&ensp;#정수변환</li>
+    <li> fage = float(msg)&ensp;#실수변환</li>
 </ul>
 
 ### [연산자]()
