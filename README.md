@@ -62,26 +62,12 @@
 
 ## [3주차 실습&nbsp;-&nbsp;변수와 연산자](https://github.com/baek-study/python/blob/main/source/week3.ipynb)
 
-### [변수와 자료형]()
+### [변수와 값의 대입]()
 <ul>
   <li>변수 : 데이터를 저장하는 공간 </li>
+  <li>변수이름 = 값 &emsp ex) x = 1 </li>
+  <li> x=1, y=3.14, z='hi', b=True </li>
   <li>이름 규칙 : 알파벳문자, 숫자, _(밑줄)로 구성, 시작시 숫자는 안됨  </li>
-  <li>자료형 : 정수형(int), 실수형(float), 문자열(str), 논리형(bool) </li>
-</ul>
-
-### [파이썬에서 변수]()
-<ul>
-    <li> x=1, y=3.14, z='hi', b=True</li>
-    <li> 자료형: type(x)</li>
-    <li> 참조값(주소): id(x) </li>
-</ul>
-
-### [연산자]()
-<ul>
-    <li>산술: + - * / %(나머지) //(몫)</li>
-    <li>대입: x=3; x=x+1; x,y=3,5 </li>
-    <li>복합: x += 3 &ensp;&ensp;&ensp;# x=x+3 </li>
-    <li>타입변환: int(3.14), float(3)</li>
 </ul>
 
 ### [표준 입력함수 input()]()
@@ -89,6 +75,15 @@
     <li> msg = input('나이는?')&ensp;#문자열리턴</li>
     <li> age = int(msg)&ensp;#정수변환</li>
 </ul>
+
+### [연산자]()
+<ul>
+    <li>산술: + - * / %(나머지) //(몫)</li>
+    <li>대입: x=3; x=x+1; x,y=3,5; </li>
+    <li>복합: x += 3 &ensp;&ensp;&ensp;# x=x+3 </li>
+    <li>타입변환: int(3.14), float(3)</li>
+</ul>
+
 <br>
 
 ## [4주차 실습&nbsp;-&nbsp;문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
