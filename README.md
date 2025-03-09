@@ -71,10 +71,10 @@
 ### [파이썬에서 변수]()
 <ul>
   <li>변수이름 = 값 &ensp; # 왼쪽은 항상 변수이름 </li>
-  <li> x=1 &ensp;# 정수(int) 변수 </li>
-  <li> y=3.14 &ensp;# 실수(float) 변수 </li>
-  <li> z='hi' &ensp;# 문자열(str) 변수 </li>
-  <li> b=True &ensp; # 논리형(bool) 변수</li>
+  <li> x=1 &ensp;# 정수(int) </li>
+  <li> y=3.14 &ensp;# 실수(float) </li>
+  <li> z='hi' &ensp;# 문자열(str)</li>
+  <li> b=True &ensp; # 논리(bool)</li>
 
 </ul>
 
