@@ -80,7 +80,8 @@
 
 ### [표준 입력함수 input()]()
 <ul>
-    <li> msg = input('나이는?')&ensp;#문자열리턴</li>
+   <li>키보드를 통해 입력한 값을 하나의 '문자열' 형태로 반환</li>
+    <li> msg = input('[안내메시지] 나이는?')&ensp;#문자열로 반환</li>
     <li> age = int(msg)&ensp;#정수변환</li>
 </ul>
 
