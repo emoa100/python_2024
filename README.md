@@ -62,12 +62,20 @@
 
 ## [3주차 실습&nbsp;-&nbsp;변수와 연산자](https://github.com/baek-study/python/blob/main/source/week3.ipynb)
 
-### [변수와 값의 대입]()
+### [변수 개념]()
 <ul>
   <li>변수 : 데이터를 저장하는 공간 </li>
-  <li>변수이름 = 값 &emsp ex) x = 1 </li>
-  <li> x=1, y=3.14, z='hi', b=True </li>
   <li>이름 규칙 : 알파벳문자, 숫자, _(밑줄)로 구성, 시작시 숫자는 안됨  </li>
+</ul>
+
+### [파이썬에서 변수]()
+<ul>
+  <li>변수이름 = 값 &ensp; # 왼쪽은 항상 변수이름 </li>
+  <li> x=1, type(x) &ensp;# 정수(int) </li>
+  <li> y=3.14,type(y) &ensp;# 실수(float) </li>
+  <li> z='hi',type(z) &ensp;# 문자열(str) </li>
+  <li> b=True, type(b)&ensp; # 논리형(bool) </li>
+
 </ul>
 
 ### [표준 입력함수 input()]()
@@ -80,9 +88,12 @@
 <ul>
     <li>산술: + - * / %(나머지) //(몫)</li>
     <li>대입: x=3; x=x+1; x,y=3,5; </li>
-    <li>복합: x += 3 &ensp;&ensp;&ensp;# x=x+3 </li>
+    <li>복합: x+=3 &ensp;&ensp;&ensp;# x=x+3 </li>
     <li>타입변환: int(3.14), float(3)</li>
 </ul>
+
+<br>
+
 
 <br>
 
