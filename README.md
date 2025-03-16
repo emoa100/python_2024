@@ -119,7 +119,7 @@
 <li>중첩 if<br>
   &nbsp; <b>if</b> score >= 60 <b>:</b>&ensp;<br>
   &nbsp; &nbsp; &nbsp; &nbsp; if score >= 80: print('우수') <br>
-  &nbsp; &nbsp; &nbsp; &nbsp; else : print('보통')
+  &nbsp; &nbsp; &nbsp; &nbsp; else : print('보통')<br>
   &nbsp; <b>else:</b>&ensp; print('fail')
 </li>
 <li>연속 if <br>
