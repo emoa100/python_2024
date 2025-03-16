@@ -130,15 +130,17 @@
   &nbsp; &nbsp; 문장들 &nbsp;&emsp;&emsp;&ensp; #스위트
 </li>
 <li>단순 if<br>
-  &nbsp; <b>if</b> 조건<b>:</b>&ensp; 문장 
+  &nbsp; <b>if</b> score >= 60<b>:</b>&ensp; print('pass')
 </li>
 <li>if~else 문<br>
-  &nbsp; <b>if</b> 조건<b>:</b>&ensp; 문장 <br>
-  &nbsp; <b>else:</b>&ensp; 문장 
+  &nbsp; <b>if</b> score >= 60<b><b>:</b>&ensp; print('pass') <br>
+  &nbsp; <b>else:</b>&ensp; print('fail')
 </li>
 <li>중첩 if<br>
-  &nbsp; <b>if</b> 조건<b>:</b>&ensp; if 조건: 문장 <br>
-  &nbsp; <b>else:</b>&ensp; if 조건: 문장 
+  &nbsp; <b>if</b> score >= 60 <b>:</b>&ensp;<br>
+  &nbsp; &nbsp; &nbsp; &nbsp; if score >= 80: print('우수') <br>
+  &nbsp; &nbsp; &nbsp; &nbsp; else : print('보통')
+  &nbsp; <b>else:</b>&ensp; print('pass')
 </li>
 <li>연속 if <br>
   &nbsp; <b>if</b> 조건<b>:</b>&ensp;  문장 <br>
