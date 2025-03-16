@@ -102,11 +102,11 @@
 ## [4주차 실습&nbsp;-&nbsp;조건문](https://github.com/baek-study/python/blob/main/source/week5.ipynb)
 <ul>
 <li>조건식을 위한 연산자 <br>
-  &nbsp; - &nbsp; 비교 연산자 : == != > < >= <=<br>
-  &nbsp; - &nbsp; 논리 연산자 : and or not
+  &nbsp; - &nbsp; 비교 : == != > < >= <=<br>
+  &nbsp; - &nbsp; 논리 : and or not
 </li>
 <li>제어문 기본 구성<br>
-  &nbsp;<b>제어키워드</b> 조건<b>:</b>  &ensp; #헤더<br>
+  &nbsp;<b>키워드</b> 조건<b>:</b>  &ensp; #헤더<br>
   &nbsp; &nbsp; 문장들 &nbsp;&emsp;&emsp;&ensp; #스위트
 </li>
 <li>단순 if<br>
