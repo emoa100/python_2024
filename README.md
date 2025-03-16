@@ -97,29 +97,9 @@
 
 <br>
 
-## [4주차 실습&nbsp;-&nbsp;문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
-<ul>
-<li>문자열 생성 및 조작 <br>
-  &nbsp; - &nbsp; 생성: 한줄(', "), 여러줄(''', """)<br>
-  &nbsp; - &nbsp; 인덱싱 [index]: msg[3]<br>
-  &nbsp; - &nbsp; 슬라이싱 [start:end:step]: msg[3:5:1]<br>
-  &nbsp; - &nbsp; 연산+,*: 'hi'+'mju', 'hi'*3 
-</li>
-<li>문자열 서식 : f-문자열<br>
-  &nbsp; - &nbsp; print(f'hi. {name}, age {25}') <br>
-  &nbsp; - &nbsp; 혛식지정: 정수 d, 실수 f, 문자 s, 지수 e <br>
-  &nbsp; - &nbsp; 자릿수: {name:10d} <br>
-  &nbsp; - &nbsp; 정밀도: {3.145:.2f} &ensp; #소수점 몇자리
-</li>
-<li>문자열 함수/메소드 <br>
-  &nbsp; - &nbsp; 내장함수: len(s), max(s), min(s)<br>
-  &nbsp; - &nbsp; 메소드 - s.split(), s.count(), s.find()
-</li>
-</ul>
 
-<br>
 
-## [5주차 실습&nbsp;-&nbsp;조건문](https://github.com/baek-study/python/blob/main/source/week5.ipynb)
+## [4주차 실습&nbsp;-&nbsp;조건문](https://github.com/baek-study/python/blob/main/source/week5.ipynb)
 <ul>
 <li>조건식을 위한 연산자 <br>
   &nbsp; - &nbsp; 비교 연산자 : == != > < >= <=<br>
@@ -133,19 +113,19 @@
   &nbsp; <b>if</b> score >= 60<b>:</b>&ensp; print('pass')
 </li>
 <li>if~else 문<br>
-  &nbsp; <b>if</b> score >= 60<b><b>:</b>&ensp; print('pass') <br>
+  &nbsp; <b>if</b> score >= 60<b>:</b>&ensp; print('pass') <br>
   &nbsp; <b>else:</b>&ensp; print('fail')
 </li>
 <li>중첩 if<br>
   &nbsp; <b>if</b> score >= 60 <b>:</b>&ensp;<br>
   &nbsp; &nbsp; &nbsp; &nbsp; if score >= 80: print('우수') <br>
   &nbsp; &nbsp; &nbsp; &nbsp; else : print('보통')
-  &nbsp; <b>else:</b>&ensp; print('pass')
+  &nbsp; <b>else:</b>&ensp; print('fail')
 </li>
 <li>연속 if <br>
-  &nbsp; <b>if</b> 조건<b>:</b>&ensp;  문장 <br>
-  &nbsp; <b>else if</b> 조건<b>:</b>&ensp; 문장 <br>
-  &nbsp; <b>else :</b>&ensp; 문장 <br>
+  &nbsp; <b>if</b> score >= 80<b>:</b>&ensp;  print('우수') <br>
+  &nbsp; <b>elif</b> score >= 60<b>:</b>&ensp; print('보통') <br>
+  &nbsp; <b>else :</b>&ensp; print('fail') <br>
 </li>
 </ul>
 
@@ -183,6 +163,28 @@
 
 <li>보조제어 - break, continue<br>
   &nbsp;break(반복문 탈출), continue(반복 다시 시작) <br>
+</li>
+</ul>
+
+<br>
+
+## [4주차 실습&nbsp;-&nbsp;문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+<ul>
+<li>문자열 생성 및 조작 <br>
+  &nbsp; - &nbsp; 생성: 한줄(', "), 여러줄(''', """)<br>
+  &nbsp; - &nbsp; 인덱싱 [index]: msg[3]<br>
+  &nbsp; - &nbsp; 슬라이싱 [start:end:step]: msg[3:5:1]<br>
+  &nbsp; - &nbsp; 연산+,*: 'hi'+'mju', 'hi'*3 
+</li>
+<li>문자열 서식 : f-문자열<br>
+  &nbsp; - &nbsp; print(f'hi. {name}, age {25}') <br>
+  &nbsp; - &nbsp; 혛식지정: 정수 d, 실수 f, 문자 s, 지수 e <br>
+  &nbsp; - &nbsp; 자릿수: {name:10d} <br>
+  &nbsp; - &nbsp; 정밀도: {3.145:.2f} &ensp; #소수점 몇자리
+</li>
+<li>문자열 함수/메소드 <br>
+  &nbsp; - &nbsp; 내장함수: len(s), max(s), min(s)<br>
+  &nbsp; - &nbsp; 메소드 - s.split(), s.count(), s.find()
 </li>
 </ul>
 
