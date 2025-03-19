@@ -117,9 +117,12 @@
   </li>
 <br>
   <li>연속 if 문 <br>
-    &nbsp; <b>if</b> score >= 80<b>:</b>&ensp;  print('우수') <br>
-    &nbsp; <b>elif</b> score >= 60<b>:</b>&ensp; print('보통') <br>
-    &nbsp; <b>else :</b>&ensp; print('fail') <br>
+    <b>if</b> score >= 80<b>:</b>&ensp;  
+    &ensp;&nbsp;print('우수') <br>
+    <b>elif</b> score >= 60<b>:</b>&ensp; 
+    &ensp;&nbsp;print('보통') <br>
+    <b>else :</b>&ensp; 
+    &ensp;&nbsp;print('fail') <br>
   </li>
 </ul>
 
