@@ -109,9 +109,7 @@
   &nbsp;<b>키워드</b> 조건<b>:</b>  &ensp; #헤더<br>
   &nbsp; &nbsp; 문장들 &nbsp;&emsp;&emsp;&ensp; #스위트
 </li>
-<li>단순 if<br>
-  &nbsp; <b>if</b> score >= 60<b>:</b>&ensp; print('pass')
-</li>
+
 <li>if~else 문<br>
   &nbsp; <b>if</b> score >= 60<b>:</b>&ensp; print('pass') <br>
   &nbsp; <b>else:</b>&ensp; print('fail')
