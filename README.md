@@ -108,9 +108,9 @@
 <br>
 <li>if~else 문<br>
   &nbsp; <b>if</b> score >= 60<b>:</b>&ensp;<br>
-  &ensp; print('pass') <br>
+  &ensp;&ensp; print('pass') <br>
   &nbsp; <b>else:</b>&ensp; <br>
-  &ensp;print('fail')
+  &ensp;&ensp; print('fail')
 </li>
 <br>
 <li>연속 if <br>
