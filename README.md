@@ -100,28 +100,30 @@
 
 
 ## [4주차 실습&nbsp;-&nbsp;조건문](https://github.com/baek-study/python/blob/main/source/week5.ipynb)
+
+### [연산자]()
 <ul>
-<li>조건식을 위한 연산자 <br>
-  &nbsp; - &nbsp; 비교 : == != > < >= <=<br>
-  &nbsp; - &nbsp; 논리 : and or not
-</li>
+  <li>비교 : == != > < >= <=</li>
+  <li></li> 논리 : and or not</li>
+</ul>
+
+### [조건문]()
+<ul>    
+  <li>if~else 문<br>
+    &nbsp; <b>if</b> score >= 60<b>:</b>&ensp;<br>
+    &ensp;&ensp; print('pass') <br>
+    &nbsp; <b>else:</b>&ensp; <br>
+    &ensp;&ensp; print('fail')
+  </li>
 <br>
-<li>if~else 문<br>
-  &nbsp; <b>if</b> score >= 60<b>:</b>&ensp;<br>
-  &ensp;&ensp; print('pass') <br>
-  &nbsp; <b>else:</b>&ensp; <br>
-  &ensp;&ensp; print('fail')
-</li>
-<br>
-<li>연속 if 문 <br>
-  &nbsp; <b>if</b> score >= 80<b>:</b>&ensp;  print('우수') <br>
-  &nbsp; <b>elif</b> score >= 60<b>:</b>&ensp; print('보통') <br>
-  &nbsp; <b>else :</b>&ensp; print('fail') <br>
-</li>
+  <li>연속 if 문 <br>
+    &nbsp; <b>if</b> score >= 80<b>:</b>&ensp;  print('우수') <br>
+    &nbsp; <b>elif</b> score >= 60<b>:</b>&ensp; print('보통') <br>
+    &nbsp; <b>else :</b>&ensp; print('fail') <br>
+  </li>
 </ul>
 
 <br>
-
 <ul>
 <li>조건식을 위한 연산자 <br>
   &nbsp; - &nbsp; 비교 : == != > < >= <=<br>
