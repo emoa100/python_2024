@@ -104,16 +104,16 @@
 ### [연산자]()
 <ul>
   <li>비교 : == != > < >= <=</li>
-  <li></li> 논리 : and or not</li>
+  <li>논리 : and or not</li>
 </ul>
 
 ### [조건문]()
 <ul>    
   <li>if~else 문<br>
-    &nbsp; <b>if</b> score >= 60<b>:</b>&ensp;<br>
-    &ensp;&ensp; print('pass') <br>
-    &nbsp; <b>else:</b>&ensp; <br>
-    &ensp;&ensp; print('fail')
+    <b>if</b> score >= 60<b>:</b>&ensp;<br>
+    &ensp;&nbsp;  print('pass') <br>
+    <b>else:</b>&ensp; <br>
+    &ensp;&nbsp;  print('fail')
   </li>
 <br>
   <li>연속 if 문 <br>
