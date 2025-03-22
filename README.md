@@ -61,22 +61,23 @@
 <br>
 
 
-<br>
-
-
 
 ## [4주차 실습&nbsp;-&nbsp;조건문](https://github.com/baek-study/python/blob/main/source/week5.ipynb)
 
 ### [연산자]()
 <ul>
-  <li>복합: 대입과 산술 연산자 결합 <br>
-  &ensp;x+=3 &ensp;# x=x+3 같은의미 </li>
+  <li>복합: x+=3 &ensp;# x=x+3 같은의미  <br>
+  &ensp;대입과 산술 연산자 결합 </li>
   <li>비교 : == != > < >= <=</li>
   <li>논리 : and or not</li>
 </ul>
 
 ### [조건문]()
 <ul>    
+  <li>if 문<br>
+    <b>if</b> score >= 60<b>:</b>&ensp;<br>
+    &ensp;&nbsp;  print('pass') <br>
+  </li>
   <li>if~else 문<br>
     <b>if</b> score >= 60<b>:</b>&ensp;<br>
     &ensp;&nbsp;  print('pass') <br>
@@ -84,14 +85,6 @@
     &ensp;&nbsp;  print('fail')
   </li>
 <br>
-  <li>연속 if 문 <br>
-    <b>if</b> score >= 80<b>:</b>&ensp;  <br>
-    &ensp;&nbsp;print('우수') <br>
-    <b>elif</b> score >= 60<b>:</b>&ensp; <br>
-    &ensp;&nbsp;print('보통') <br>
-    <b>else :</b>&ensp; <br>
-    &ensp;&nbsp;print('fail') <br>
-  </li>
 </ul>
 
 
