@@ -4,43 +4,10 @@
 
 <hr size = "10px", width ="500px">
 
-## [14주차 실습&nbsp;-&nbsp;파일2&클래스와객체](https://github.com/baek-study/python/blob/main/source/week14.ipynb)  
-<ul>
-<li>  파일2 <br>
-  - 파일 읽기: 파일 객체(변수) 이용 <br>
-  &ensp;for line in infile:<br>
-  &ensp;&emsp; print(line.strip())<br>
-  - with 명령문: 파일 안전하게 처리 <br>
-  &ensp;with open('a.txt', 'r') as file:
-</li>
-<br>
-<li> 클래스와 객체 <br>
-  - 클래스: 설계도, 데이터+메소드 <br>
-  - 객체 : 클래스에서 생성된 실체<br>
-</li>
-<br>
-<li>클래스 정의 - 메소드 정의  <br>
-  - <b>class</b> Counter : # class 이름: <br> 
-  &emsp; def func1(<b>self</b>, ... ) : <br> 
-  &emsp;&emsp; <b>self.</b>b>count = 1, ...  <br> 
-</li>
-<br>
-<li>객체 생성 & 객체 접근  <br>
-  - 객체생성 : 객체 = 클래스 이름()  <br> 
-  &ensp; a = Counter() <br> 
-  - 객체 접근 : . 연산자 이용 <br> 
-  &ensp; a.func1()  # 메소드 접근<br> 
-  &ensp; print(a.count) # 데이터 접근
-</li>
-<br>
-</ul>
-
-<hr size = "10px", width ="500px">
-
 <br>
 
 ## 1주차
-파이썬 소개 - 대화형, 객체지향 언어
+파이썬 소개 - 객체지향 언어, 인터프리터 언어
 
 <br>
 
@@ -89,7 +56,6 @@
 <ul>
     <li>산술: + - * / %(나머지) //(몫) **(제곱)</li>
     <li>대입: x=3; x=x+1; &ensp; # 왼쪽은 항상 변수이름 </li> 
-    <li>복합: x+=3 &ensp;&ensp;&ensp;# x=x+3 같은의미 </li>
 </ul>
 
 <br>
@@ -103,6 +69,8 @@
 
 ### [연산자]()
 <ul>
+  <li>복합: 대입과 산술 연산자 결합 <<br>> 
+  &ensp;x+=3 &ensp;;# x=x+3 같은의미 </li>
   <li>비교 : == != > < >= <=</li>
   <li>논리 : and or not</li>
 </ul>
