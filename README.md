@@ -106,7 +106,7 @@
     <b>if</b> score >= 80<b>:</b>&ensp;  <br>
     &ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
     &ensp;&nbsp;&ensp;print('우수') <br>
-    &ensp;&nbsp;<b>else :<b>:</b>&ensp; <br>
+    &ensp;&nbsp;<b>else :</b>&ensp; <br>
     &ensp;&nbsp;&ensp;print('보통') <br>
     <b>else :</b>&ensp; <br>
     &ensp;&nbsp;print('fail') <br>
