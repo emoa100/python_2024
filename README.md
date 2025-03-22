@@ -69,8 +69,8 @@
 
 ### [연산자]()
 <ul>
-  <li>복합: 대입과 산술 연산자 결합 <<br>> 
-  &ensp;x+=3 &ensp;;# x=x+3 같은의미 </li>
+  <li>복합: 대입과 산술 연산자 결합 <br>
+  &ensp;x+=3 &ensp;# x=x+3 같은의미 </li>
   <li>비교 : == != > < >= <=</li>
   <li>논리 : and or not</li>
 </ul>
@@ -93,6 +93,50 @@
     &ensp;&nbsp;print('fail') <br>
   </li>
 </ul>
+
+
+## [5주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+### [다중조건문]()
+<ul>    
+  <li>연속 if 문 <br>
+    <b>if</b> score >= 80<b>:</b>&ensp;  <br>
+    &ensp;&nbsp;print('우수') <br>
+    <b>elif</b> score >= 60<b>:</b>&ensp; <br>
+    &ensp;&nbsp;print('보통') <br>
+    <b>else :</b>&ensp; <br>
+    &ensp;&nbsp;print('fail') <br>
+  </li>
+<br>
+  <li>중첩 if 문 <br>
+    <b>if</b> score >= 80<b>:</b>&ensp;  <br>
+    &ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
+    &ensp;&nbsp;&ensp;print('우수') <br>
+    &ensp;&nbsp;<b>else :<b>:</b>&ensp; <br>
+    &ensp;&nbsp;&ensp;print('보통') <br>
+    <b>else :</b>&ensp; <br>
+    &ensp;&nbsp;print('fail') <br>
+  </li>
+</ul>
+
+<ul>
+<li>문자열 생성 및 조작 <br>
+  &nbsp; - &nbsp; 생성: 한줄(', "), 여러줄(''', """)<br>
+  &nbsp; - &nbsp; 인덱싱 [index]: msg[3]<br>
+  &nbsp; - &nbsp; 슬라이싱 [start:end:step]: msg[3:5:1]<br>
+  &nbsp; - &nbsp; 연산+,*: 'hi'+'mju', 'hi'*3 
+</li>
+<li>문자열 서식 : f-문자열<br>
+  &nbsp; - &nbsp; print(f'hi. {name}, age {25}') <br>
+  &nbsp; - &nbsp; 혛식지정: 정수 d, 실수 f, 문자 s, 지수 e <br>
+  &nbsp; - &nbsp; 자릿수: {name:10d} <br>
+  &nbsp; - &nbsp; 정밀도: {3.145:.2f} &ensp; #소수점 몇자리
+</li>
+<li>문자열 함수/메소드 <br>
+  &nbsp; - &nbsp; 내장함수: len(s), max(s), min(s)<br>
+  &nbsp; - &nbsp; 메소드 - s.split(), s.count(), s.find()
+</li>
+</ul>
+
 
 <br>
 <ul>
