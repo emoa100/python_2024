@@ -133,9 +133,9 @@
 <ul>
   <li> print(f'hi. {name}, age {25}') </li>
   <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
-  <li> 자릿수: {name:10d} </li>
+  <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
   <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
-    &ensp;print(f’{num:5d}’), print(f’{PI:.2f}’)
+    &ensp;print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
   </li>
   
 </ul>
