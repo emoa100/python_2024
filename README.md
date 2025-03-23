@@ -105,14 +105,15 @@
   <li>중첩 if 문 <br>
     <b>if</b> score >= 80<b>:</b>&ensp;  <br>
     &ensp;&ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;&ensp;print('우수') <br>
+    &ensp;&ensp;&nbsp;&ensp;&ensp;print('우수') <br>
     &ensp;&ensp;&nbsp;<b>else :</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;&ensp;print('보통') <br>
+    &ensp;&ensp;&nbsp;&ensp;&ensp;print('보통') <br>
     <b>else :</b>&ensp; <br>
     &ensp;&ensp;&nbsp;print('fail') <br>
   </li>
 </ul>
 
+### [문자열 생성 및 조작]()
 <ul>
 <li>문자열 생성 및 조작 <br>
   &nbsp; - &nbsp; 생성: 한줄(', "), 여러줄(''', """)<br>
@@ -120,16 +121,17 @@
   &nbsp; - &nbsp; 슬라이싱 [start:end:step]: msg[3:5:1]<br>
   &nbsp; - &nbsp; 연산+,*: 'hi'+'mju', 'hi'*3 
 </li>
+</ul>
+
+### [문자열 서식 : f-문자열]()
+<ul>
 <li>문자열 서식 : f-문자열<br>
   &nbsp; - &nbsp; print(f'hi. {name}, age {25}') <br>
-  &nbsp; - &nbsp; 혛식지정: 정수 d, 실수 f, 문자 s, 지수 e <br>
+  &nbsp; - &nbsp; 형식지정: 정수 d, 실수 f, 문자 s, 지수 e <br>
   &nbsp; - &nbsp; 자릿수: {name:10d} <br>
   &nbsp; - &nbsp; 정밀도: {3.145:.2f} &ensp; #소수점 몇자리
 </li>
-<li>문자열 함수/메소드 <br>
-  &nbsp; - &nbsp; 내장함수: len(s), max(s), min(s)<br>
-  &nbsp; - &nbsp; 메소드 - s.split(), s.count(), s.find()
-</li>
+
 </ul>
 
 
