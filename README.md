@@ -115,23 +115,19 @@
 
 ### [문자열 생성 및 조작]()
 <ul>
-<li>문자열 생성 및 조작 <br>
-  &nbsp; - &nbsp; 생성: 한줄(', "), 여러줄(''', """)<br>
-  &nbsp; - &nbsp; 인덱싱 [index]: msg[3]<br>
-  &nbsp; - &nbsp; 슬라이싱 [start:end:step]: msg[3:5:1]<br>
-  &nbsp; - &nbsp; 연산+,*: 'hi'+'mju', 'hi'*3 
-</li>
+ <li>생성: 한줄(', "), 여러줄(''', """)</li>
+ <li>인덱싱 [index]: msg[3]</li>
+ <li>슬라이싱 [start:end:step]: msg[3:5:1]</li>
+ <li>연산+,*: 'hi'+'mju', 'hi'*3 </li>
+
 </ul>
 
 ### [문자열 서식 : f-문자열]()
 <ul>
-<li>문자열 서식 : f-문자열<br>
-  &nbsp; - &nbsp; print(f'hi. {name}, age {25}') <br>
-  &nbsp; - &nbsp; 형식지정: 정수 d, 실수 f, 문자 s, 지수 e <br>
-  &nbsp; - &nbsp; 자릿수: {name:10d} <br>
-  &nbsp; - &nbsp; 정밀도: {3.145:.2f} &ensp; #소수점 몇자리
-</li>
-
+  <li> print(f'hi. {name}, age {25}') </li>
+  <li> 형식지정: 정수 d, 실수 f, 문자 s, 지수 e </li>
+  <li> 자릿수: {name:10d} </li>
+  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리</li>
 </ul>
 
 
