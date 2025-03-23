@@ -99,13 +99,7 @@
     <b>else :</b>&ensp; <br>
     &ensp;&nbsp;print('fail') <br>
   </li>
-  
 
-## [5주차 실습&nbsp;-&nbsp;다중 조건문과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
-### [다중조건문]()
-<ul>    
-  <li>연속 if 문 : if~elif~else문 </li>
-<br>
   <li>중첩 if 문 <br>
     <b>if</b> score >= 80<b>:</b>&ensp;  <br>
     &ensp;&ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
@@ -115,6 +109,14 @@
     <b>else :</b>&ensp; <br>
     &ensp;&ensp;&nbsp;print('fail') <br>
   </li>
+  
+
+## [5주차 실습&nbsp;-&nbsp;다중 조건문과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+### [다중조건문]()
+<ul>    
+  <li>연속 if 문 : if~elif~else문 </li>
+<br>
+  <li>중첩 if 문 : if 문 안에 if 문 </li>
 </ul>
 
 ### [문자열 생성 및 조작]()
