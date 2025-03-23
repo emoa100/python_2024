@@ -115,7 +115,6 @@
 ### [다중조건문]()
 <ul>    
   <li>연속 if 문 : if~elif~else문 </li>
-<br>
   <li>중첩 if 문 : if 문 안에 if 문 </li>
 </ul>
 
