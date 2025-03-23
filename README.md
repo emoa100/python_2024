@@ -160,7 +160,9 @@
 
 ### [문자열 생성 및 조작]()
 <ul>
- <li>생성: 한줄(', "), 여러줄(''', """)</li>
+ <li>생성: msg = 'Hello, World' <br>
+   &ensp; 한줄(', "), 여러줄(''', """) 
+ </li>
  <li>인덱싱 [index]: msg[3]</li>
  <li>슬라이싱 [start:end:step]: msg[3:5:1]</li>
  <li>연산+,*: 'hi'+'mju', 'hi'*3 </li>
