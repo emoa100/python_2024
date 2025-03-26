@@ -131,8 +131,8 @@
 
 ### [print 함수 : 키워드 인수]()
 <ul>
-  <li>sep : print('hello', sep='/')</li>
-  <li>end: print('hello', end=' ')</li>
+  <li>sep : print('hello', 'world', sep='/') #hello/world</li>
+  <li>end: print('hello', end=' ')#줄띄우기 없음</li>
 </ul>
 
 
