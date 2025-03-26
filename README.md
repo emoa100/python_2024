@@ -112,11 +112,32 @@
   
 
 ## [5주차 실습&nbsp;-&nbsp;다중 조건문과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
-### [다중조건문]()
-<ul>    
+### [조건문]()
+<ul> 
+  <li> if ~ else 문</li>
   <li>연속 if 문 : if~elif~else문 </li>
   <li>중첩 if 문 : if 문 안에 if 문 </li>
 </ul>
+
+### [서식 : f-문자열]()
+<ul>
+  <li> print(f'hi. {name}, age {25}') </li>
+  <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
+  <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
+  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
+    &ensp;print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
+  </li>  
+</ul>
+
+### [print 함수 : 키워드 인수]()
+<ul>
+  <li>sep : print('hello', sep='/')</li>
+  <li>end: print('hello', end=' ')</li>
+</ul>
+
+
+
+
 
 ### [문자열 생성 및 조작]()
 <ul>
@@ -128,19 +149,6 @@
  <li>연산+,*: 'hi'+'mju', 'hi'*3 </li>
 
 </ul>
-
-### [문자열 서식 : f-문자열]()
-<ul>
-  <li> print(f'hi. {name}, age {25}') </li>
-  <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
-  <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
-  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
-    &ensp;print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
-  </li>
-  
-</ul>
-
-
 
 
 ## [5주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
