@@ -138,40 +138,11 @@
 
 
 
-
-### [문자열 생성 및 조작]()
-<ul>
- <li>생성: msg = 'Hello, World' <br>
-   &ensp; 한줄(', "), 여러줄(''', """) 
- </li>
- <li>인덱싱 [index]: msg[3]</li>
- <li>슬라이싱 [start:end:step]: msg[3:5:1]</li>
- <li>연산+,*: 'hi'+'mju', 'hi'*3 </li>
-
-</ul>
-
-
-## [5주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+## [6주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
 ### [다중조건문]()
-<ul>    
-  <li>연속 if 문 <br>
-    <b>if</b> score >= 80<b>:</b>&ensp;  <br>
-    &ensp;&nbsp;print('우수') <br>
-    <b>elif</b> score >= 60<b>:</b>&ensp; <br>
-    &ensp;&nbsp;print('보통') <br>
-    <b>else :</b>&ensp; <br>
-    &ensp;&nbsp;print('fail') <br>
-  </li>
-<br>
-  <li>중첩 if 문 <br>
-    <b>if</b> score >= 80<b>:</b>&ensp;  <br>
-    &ensp;&ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;&ensp;&ensp;print('우수') <br>
-    &ensp;&ensp;&nbsp;<b>else :</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;&ensp;&ensp;print('보통') <br>
-    <b>else :</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;print('fail') <br>
-  </li>
+<ul> 
+  <li>연속 if 문 : if~elif~else문 </li>
+  <li>중첩 if 문 : if 문 안에 if 문 </li>
 </ul>
 
 ### [문자열 생성 및 조작]()
@@ -185,43 +156,18 @@
 
 </ul>
 
-### [문자열 서식 : f-문자열]()
+<br>
+
+### [문자열 함수/메소드]()
 <ul>
-  <li> print(f'hi. {name}, age {25}') </li>
-  <li> 형식지정: 정수 d, 실수 f, 문자 s, 지수 e </li>
-  <li> 자릿수: {name:10d} </li>
-  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리</li>
+ <li>len(msg) : 문자열 길이 함수 </li>
+ <li>msg.split() : 문자열 분리 메소드</li>
+ <li>mgs.count('h') : 문자열 발견 횟수 </li>
+ <li>msg.find('hello'): 문자열 위치 </li>
 </ul>
 
 
-<br>
-<ul>
-<li>조건식을 위한 연산자 <br>
-  &nbsp; - &nbsp; 비교 : == != > < >= <=<br>
-  &nbsp; - &nbsp; 논리 : and or not
-</li>
-<br>
-<li>if~else 문<br>
-  &nbsp; <b>if</b> score >= 60<b>:</b>&ensp;<br>
-  &ensp; print('pass') <br>
-  &nbsp; <b>else:</b>&ensp; <br>
-  &ensp;print('fail')
-</li>
-<br>
-<li>중첩 if<br>
-  &nbsp; <b>if</b> score >= 60 <b>:</b>&ensp;<br>
-  &nbsp; &nbsp; &nbsp; &nbsp; if score >= 80: print('우수') <br>
-  &nbsp; &nbsp; &nbsp; &nbsp; else : print('보통')<br>
-  &nbsp; <b>else:</b>&ensp; <br>
-  &ensp;print('fail')
-</li>
-<br>
-<li>연속 if <br>
-  &nbsp; <b>if</b> score >= 80<b>:</b>&ensp;  print('우수') <br>
-  &nbsp; <b>elif</b> score >= 60<b>:</b>&ensp; print('보통') <br>
-  &nbsp; <b>else :</b>&ensp; print('fail') <br>
-</li>
-</ul>
+
 
 
 ## [6주차 실습&nbsp;-&nbsp;반복문1](https://github.com/baek-study/python/blob/main/source/week6.ipynb)
