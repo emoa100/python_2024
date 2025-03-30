@@ -132,8 +132,8 @@
 
 ### [print 함수 : 키워드 인수]()
 <ul>
-  <li>sep : print('hello', 'world', sep='/') #hello/world</li>
-  <li>end: print('hello', end=' ')#줄띄우기 없음</li>
+  <li> 키워드 인수 sep(구분문자), end(마감문자) <br>
+   print('hello', 'world', sep=' ', end='\n') </li>
 </ul>
 
 ## [5주차 실습&nbsp;-&nbsp;다중 조건문과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
