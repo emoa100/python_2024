@@ -145,9 +145,10 @@
 
 ### [문자열 생성 및 조작]()
 <ul>
- <li>생성: msg = 'Hello, World' </li>
- <li>인덱싱 [index]: msg[0]  # 0부터 시작 </li>
- <li>슬라이싱 [start:end:step]: msg[3:5:1]</li>
+ <li>생성: msg = '안녕하세요' </li>
+ <li>인덱싱 [순번]: msg[0]  # '안' 출력 </li>
+ <li>슬라이싱 [시작:끝]: msg[2:4] #'하세' 출력 <br>
+ &ensp;&ensp;시작부터 (끝-1) 까지 부분문자열</li>
  <li>연산+,*: 'hi'+'mju', 'hi'*3 </li>
 </ul>
 
