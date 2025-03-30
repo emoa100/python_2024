@@ -136,29 +136,59 @@
   <li>end: print('hello', end=' ')#줄띄우기 없음</li>
 </ul>
 
-
-## [6주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+## [월요반-5주차 실습&nbsp;-&nbsp;다중 조건문과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
 ### [다중조건문]()
 <ul> 
+  <li> if ~ else 문</li>
   <li>연속 if 문 : if~elif~else문 </li>
   <li>중첩 if 문 : if 문 안에 if 문 </li>
 </ul>
 
-### [문자열 생성 및 조작]()
+### [서식 : f-문자열]()
 <ul>
- <li>생성: msg = '안녕하세요' </li>
- <li>인덱싱 [순번]: msg[0]&ensp;&ensp;  # '안' </li>
- <li>슬라이싱 [시작:끝]: msg[2:4]&ensp; #'하세' <br>
- 시작부터 (끝-1) 까지 부분문자열</li>
- <li>연산+,*: 'hi'+'mju', 'hi'*3 </li>
+  <li> print(f'hi. {name}, age {25}') </li>
+  <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
+  <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
+  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
+    &ensp;print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
+  </li>  
 </ul>
 
-### [문자열 메소드]()
+### [print 함수 : 키워드 인수]()
 <ul>
- <li>len(msg) : 문자열 길이 함수 </li>
- <li>msg.split() : 문자열 분리 메소드</li>
- <li>mgs.count('안') : 문자열 발견 횟수&ensp; # 1회</li>
- <li>msg.find('하세요'): 문자열 위치&ensp; # 2 </li>
+  <li>sep : print('hello', 'world', sep='/') #hello/world</li>
+  <li>end: print('hello', end=' ')#줄띄우기 없음</li>
+</ul>
+
+
+## [5주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+### [다중조건문]()
+<ul> 
+  <li>중첩 if 문 : if 문 안에 if 문 </li>
+  <li>연속 if 문 : if~elif~else문 <br>
+    <b>if</b> score >= 80<b>:</b>&ensp;  <br>
+    &ensp;&nbsp;print('우수') <br>
+    <b>elif</b> score >= 60<b>:</b>&ensp; <br>
+    &ensp;&nbsp;print('보통') <br>
+    <b>else :</b>&ensp; <br>
+    &ensp;&nbsp;print('fail') <br>
+  </li>
+</ul>
+
+### [서식 : f-문자열]()
+<ul>
+  <li> print(f'hi. {name}, age {25}') </li>
+  <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
+  <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
+  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
+    &ensp;print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
+  </li>  
+</ul>
+
+### [print 함수 : 키워드 인수]()
+<ul>
+  <li>sep : print('hello', 'world', sep='/') #hello/world</li>
+  <li>end: print('hello', end=' ')#줄띄우기 없음</li>
 </ul>
 
 
