@@ -156,8 +156,8 @@
 <ul>
  <li>len(msg) : 문자열 길이 함수 </li>
  <li>msg.split() : 문자열 분리 메소드</li>
- <li>mgs.count('h') : 문자열 발견 횟수 </li>
- <li>msg.find('hello'): 문자열 위치 </li>
+ <li>mgs.count('안') : 문자열 발견 횟수 </li>
+ <li>msg.find('하세요'): 문자열 위치 </li>
 </ul>
 
 
