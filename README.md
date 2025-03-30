@@ -136,7 +136,7 @@
   <li>end: print('hello', end=' ')#줄띄우기 없음</li>
 </ul>
 
-## [월요반-5주차 실습&nbsp;-&nbsp;다중 조건문과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+## [5주차 실습&nbsp;-&nbsp;다중 조건문과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
 ### [다중조건문]()
 <ul> 
   <li> if ~ else 문</li>
@@ -161,7 +161,7 @@
 </ul>
 
 
-## [5주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
+## [월요반-5주차 실습&nbsp;-&nbsp;다중 조건식과 문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
 ### [다중조건문]()
 <ul> 
   <li>중첩 if 문 : if 문 안에 if 문 </li>
