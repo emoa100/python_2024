@@ -177,12 +177,15 @@
 
 ### [서식 : f-문자열]()
 <ul>
-  <li> print(f'hi. {name}, age {25}') </li>
+  <li> print(f'hi. {name}, age {25}')&ensp; # { } 사용 </li>
   <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
   <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
-  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
+  <li> 정밀도: {3.145:.2f} &ensp; #소수점 두째자리 <br>
     &ensp;print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
   </li>  
+  <br>
+  <li> 키워드 인수 sep(구분문자), end(마감문자) <br>
+   print('hello', 'world', sep=' ', end='\n') </li>
 </ul>
 
 ### [print 함수 : 키워드 인수]()
