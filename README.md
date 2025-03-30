@@ -145,9 +145,9 @@
 
 ### [문자열 생성 및 조작]()
 <ul>
- <li>생성: msg = '안녕,안녕하세요' </li>
+ <li>생성: msg = '안녕하세요' </li>
  <li>인덱싱 [순번]: msg[0]&ensp;&ensp;  # '안' 출력 </li>
- <li>슬라이싱 [시작:끝]: msg[3:5]&ensp; #'안녕' 출력 <br>
+ <li>슬라이싱 [시작:끝]: msg[2:4]&ensp; #'하세' 출력 <br>
  시작부터 (끝-1) 까지 부분문자열</li>
  <li>연산+,*: 'hi'+'mju', 'hi'*3 </li>
 </ul>
@@ -156,8 +156,8 @@
 <ul>
  <li>len(msg) : 문자열 길이 함수 </li>
  <li>msg.split() : 문자열 분리 메소드</li>
- <li>mgs.count('안녕') : 문자열 발견 횟수&ensp; # 2회</li>
- <li>msg.find('하세요'): 문자열 위치&ensp; # 5 </li>
+ <li>mgs.count('안') : 문자열 발견 횟수&ensp; # 1회</li>
+ <li>msg.find('하세요'): 문자열 위치&ensp; # 2 </li>
 </ul>
 
 
