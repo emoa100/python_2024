@@ -93,22 +93,22 @@
 </ul>
 
   <li>연속 if 문 <br>
-    <b>if</b> score >= 80<b>:</b>&ensp;  <br>
-    &ensp;&nbsp;print('우수') <br>
-    <b>elif</b> score >= 60<b>:</b>&ensp; <br>
-    &ensp;&nbsp;print('보통') <br>
+    <b>if</b> score >= 90<b>:</b>&ensp;  <br>
+    &ensp;&nbsp;print('A') <br>
+    <b>elif</b> score >= 80<b>:</b>&ensp; <br>
+    &ensp;&nbsp;print('B') <br>
     <b>else :</b>&ensp; <br>
-    &ensp;&nbsp;print('fail') <br>
+    &ensp;&nbsp;print('C') <br>
   </li>
 
   <li>중첩 if 문 <br>
     <b>if</b> score >= 80<b>:</b>&ensp;  <br>
     &ensp;&ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;&ensp;&ensp;print('우수') <br>
+    &ensp;&ensp;&nbsp;&ensp;&ensp;print('A') <br>
     &ensp;&ensp;&nbsp;<b>else :</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;&ensp;&ensp;print('보통') <br>
+    &ensp;&ensp;&nbsp;&ensp;&ensp;print('B') <br>
     <b>else :</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;print('fail') <br>
+    &ensp;&ensp;&nbsp;print('C') <br>
   </li>
   
 
