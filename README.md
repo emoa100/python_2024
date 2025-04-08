@@ -191,10 +191,10 @@
 ### [while : 반복문]()
 <ul>
   <li>조건 반복 : 조건이 만족하는 동안 실행</li>
-  <li> count = 0 # 초기화
+  <li> count = 0 # 초기화<br>
   <b>while</b> count < 5 <b>:</b> # 조건 만족하는지? <br>
-   &nbsp; print(f'{count}회') <br> 
-  &nbsp;- count += 1 # count 증가 <br> 
+  &nbsp; print(f'{count}회') <br> 
+  &nbsp;count += 1 # count 증가 <br> 
   </li>
 </ul>
 
