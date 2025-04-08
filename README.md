@@ -188,13 +188,25 @@
    print('hello', 'world', sep=' ', end='\n') </li>
 </ul>
 
-### [print 함수 : 키워드 인수]()
+### [while : 반복문]()
 <ul>
-  <li>sep : print('hello', 'world', sep='/') #hello/world</li>
-  <li>end: print('hello', end=' ')#줄띄우기 없음</li>
+  <li>조건 반복 : 조건이 만족하는 동안 실행</li>
+  <li> count = 0 # 초기화
+  <b>while</b> count < 5 <b>:</b> # 조건 만족하는지? <br>
+   &nbsp; print(f'{count}회') <br> 
+  &nbsp;- count += 1 # count 증가 <br> 
+  </li>
 </ul>
 
-
+### [print 함수 : 키워]()
+<ul>
+<li>조건 반복 while 문 <br>
+  &nbsp; <b>while</b> 조건문 <b>:</b> <br>
+  &nbsp; &nbsp; &nbsp;문장들<br>
+  &nbsp;- &nbsp; while pw!='12':&ensp; pw=input()<br>
+  &nbsp;- &nbsp; i=0;&ensp; while i<5:&ensp; i=i+1; print('hi')
+</li>
+</ul>
 
 
 
