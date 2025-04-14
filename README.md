@@ -210,13 +210,11 @@
 
 ### [리스트 생성 및 연산]()
 <ul>
-<li>
-  &nbsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
-  &nbsp; 인덱싱[index] : temps[3], temps[-1]  <br>
-  &nbsp; 슬라이싱[start:end]: temps[2:4]  <br>
-  &nbsp; 연산 : +(연결), *(요소반복), in/not in(존재여부)  
-  
-</li>
+<li> 생성 : temps=[28, 31, 33, 35, 27]  </li>
+<li>인덱싱[index] : temps[3], temps[-1]  </li>
+<li>슬라이싱[start:end]: temps[2:4]  </li>
+<li>연산 : +(연결), *(요소반복), in/not in(존재여부)</li>  
+<li>함수/메소드 : len(temps), temps.append(55) </li>
 </ul>
 
 
