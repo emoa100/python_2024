@@ -208,6 +208,16 @@
 </li>
 </ul>
 
+### [리스트 생성 및 연산]()
+<ul>
+<li>
+  &nbsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
+  &nbsp; 인덱싱[index] : temps[3], temps[-1]  <br>
+  &nbsp; 슬라이싱[start:end]: temps[2:4]  <br>
+  &nbsp; 연산 : +(연결), *(요소반복), in/not in(존재여부)  
+  
+</li>
+</ul>
 
 
 ## [6주차 실습&nbsp;-&nbsp;반복문1](https://github.com/baek-study/python/blob/main/source/week6.ipynb)
