@@ -196,6 +196,13 @@
   &ensp;&ensp;print(f'{count}회') <br> 
   &ensp;&ensp;count += 1 # count 증가 <br> 
   </li>
+  <li> <b>while TRUE :</b> #  무한 루프<br>
+  &nbsp; &nbsp; 문장들<br>
+</li>
+<li>보조제어문<br>
+  break(반복문 탈출) <br>
+  continue(반복 다시 시작) <br>
+</li>
 </ul>
 
 ### [print 함수 : 키워]()
