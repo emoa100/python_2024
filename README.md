@@ -188,7 +188,7 @@
    print('hello', 'world', sep=' ', end='\n') </li>
 </ul>
 
-### [while : 반복문]()
+### [반복문:while]()
 <ul>
   <li>조건 반복 : 조건이 만족하는 동안 실행</li>
   <li> count = 0 # 초기화<br>
