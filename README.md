@@ -285,24 +285,35 @@
 <br>
 
 ## [9주차 실습&nbsp;-&nbsp;함수](https://github.com/baek-study/python/blob/main/source/week9.ipynb)
+
+### [함수 정의&함수 호출]()
 <ul>
-<li>함수 정의 - def 함수이름(매개변수) : <br>
+<li>함수 정의 <br>
   &nbsp; <b>def get_area(radius) :</b> <br>
   &nbsp; &nbsp; area = radius*radius*3.14 <br>
   &nbsp;&nbsp;  <b>return area</b>
   <br>
-  - 매개변수 : 함수 정의시 입력 변수<br>
-  - 반환값 : 함수 정의시 수행후 출력 값<br>
 </li>  
-<li>함수 호출 - 함수이름(인수) <br>
+<li>함수 호출 <br>
    &nbsp; result = get_area(10)
    <br>
-  - 인수 : 함수 호출시 입력되는 실제 값<br>
 </li>
-<li>키워드 인수, 디폴트 인수, 가변 인수 
-<br> 정의 : print(*args, sep = ' ', end = '\n' .... )  # sep, end는 디폴트 인수, args는 가변인수
-<br> 호출 : print(2, end = ' ')  # end 는 키워드 인수
-<br> 호출 : print(2, 3, 4 )  # end 는 디폴트 값 이용
+</ul>
+
+### [매개변수&반환값]()
+<ul>
+  <li><b>매개변수:</b> 함수 정의시 값을 전달받는 변수  <br>
+  <b>인수:</b> 함수 호출시 실제로 전달되는 값    </li>
+  <li><b>반환값:</b>(함수 정의) 함수 결과로 돌려주는 값 <br> 
+  <b>결과변수:</b> 함수호출 후 결과대입   </li>
+</ul>
+
+### [키워드 인수&디폴트 인수&가변 인수 ]()
+
+<li> 정의 : print(*args, sep = ' ', end = '\n' .... ) <br> 
+  기본값 인수 : 함수 정의시 기본값(디폴트값)이 설정됨 <br>
+  키워드 인수 : 함수 호출시 '키워드 = 값'로 호출  <br>
+  가변 인수 : 인수의 갯수가 정해지지 않음<br>
 </li>
 
 </ul>
