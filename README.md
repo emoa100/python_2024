@@ -260,10 +260,9 @@
 
 ### [중첩 for]()
 <ul>
-<li>중첩 for <br>
-  &nbsp; <b>for</b> i <b>in</b> range(1, 9)<b>:</b> <br>
-  &nbsp; &nbsp; <b>for</b> j <b>in</b> range(1, 9)<b>:</b><br>
-  &nbsp;&nbsp;&nbsp;print(f"{i}*{j}={i*j}")  # 구구단<br>  
+<li><b>for</b> i <b>in</b> range(1, 9)<b>:</b> <br>
+  &ensp;&ensp; <b>for</b> j <b>in</b> range(1, 9)<b>:</b><br>
+  &ensp;&ensp;&ensp;&ensp;print(f"{i}*{j}={i*j}")  # 구구단<br>  
 </li>
 </ul>
 
