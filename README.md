@@ -252,23 +252,34 @@
 <ul>
   <li><b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
   &nbsp; &nbsp;&nbsp; 문장들<br>
-  &nbsp;- &nbsp; for i in range(5):&ensp; print('hi')<br>
-  &nbsp;- &nbsp; for ch in 'hi':&ensp; print(ch)<br>
-  &nbsp;- &nbsp; for i in [1,2,3,4,5]:&ensp; print(i)
+  &nbsp;- &nbsp; for i in range(5):&ensp; <br>
+  &ensp;&ensp;print('hi')<br>
+  &nbsp;- &nbsp; for ch in 'hi':&ensp; <br>
+  &ensp;&ensp;print(ch)<br>
+  &nbsp;- &nbsp; for i in [1,2,3,4,5]:&ensp; <br>
+  &ensp;&ensp;print(i)
 </ul>
+
+### [중첩 for]()
+<ul>
 <li>중첩 for <br>
-  &nbsp; <b>for 변수 in 범위표현:</b> <br>
-  &nbsp; &nbsp; <b>for i in 범위표현:</b><br>
-  &nbsp;&nbsp;&nbsp;문장들<br>
-  
-<li>무한루프 - while <br>
-  &nbsp; <b>while TRUE :</b> <br>
-  &nbsp; &nbsp; &nbsp;문장들<br>
+  &nbsp; <b>for i in range(1, 9):</b> <br>
+  &nbsp; &nbsp; <b>for j in range(1, 9):</b><br>
+  &nbsp;&nbsp;&nbsp;print(f"{i}*{j}={i*j}")  # 구구단<br>  
+</li>
+</ul>
+
+### [보조제어 break, continue]() 
+<ul>
+<li><b>while True :</b> # 무한반복 <br>
+  &ensp;&ensp;num = input("정수입력") <br>
+  &ensp;&ensp;if num == -1 :  <br>
+  &ensp;&ensp; &ensp;&ensp;break # 반복문 탈출
+  &ensp;&ensp;if num%2 == 0 :  <br>
+  &ensp;&ensp; &ensp;&ensp;continue # 반복 다시 시작
+   &ensp;&ensp;print(f'{num=}')
 </li>
 
-<li>보조제어 - break, continue<br>
-  &nbsp;break(반복문 탈출), continue(반복 다시 시작) <br>
-</li>
 </ul>
 
 <br>
