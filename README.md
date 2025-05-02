@@ -250,21 +250,19 @@
 
 ### [반복문:for]()
 <ul>
-  <li><b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
-  &nbsp; &nbsp;&nbsp; 문장들<br>
-  &nbsp;- &nbsp; for i in range(5):&ensp; <br>
-  &ensp;&ensp;print('hi')<br>
-  &nbsp;- &nbsp; for ch in 'hi':&ensp; <br>
-  &ensp;&ensp;print(ch)<br>
-  &nbsp;- &nbsp; for i in [1,2,3,4,5]:&ensp; <br>
-  &ensp;&ensp;print(i)
+  <li><b>for</b> i <b> in</b> range(0,5,1):&ensp; #0,1,2,3,4 <br>
+  &ensp;&ensp;print(f'{i=}')</li>
+  <li><b>for</b> ch <b> in</b> 'hello':&ensp; <br>
+  &ensp;&ensp;print(f'{ch=}')</li>
+  <li><b>for</b> i <b> in</b> [0,1,2,3,4]:&ensp; <br>
+  &ensp;&ensp;print(f'{i=}')</li>
 </ul>
 
 ### [중첩 for]()
 <ul>
 <li>중첩 for <br>
-  &nbsp; <b>for i in range(1, 9):</b> <br>
-  &nbsp; &nbsp; <b>for j in range(1, 9):</b><br>
+  &nbsp; <b>for</b> i <b>in</b> range(1, 9)<b>:</b> <br>
+  &nbsp; &nbsp; <b>for</b> j <b>in</b> range(1, 9)<b>:</b><br>
   &nbsp;&nbsp;&nbsp;print(f"{i}*{j}={i*j}")  # 구구단<br>  
 </li>
 </ul>
@@ -274,9 +272,9 @@
 <li><b>while True :</b> # 무한반복 <br>
   &ensp;&ensp;num = input("정수입력") <br>
   &ensp;&ensp;if num == -1 :  <br>
-  &ensp;&ensp; &ensp;&ensp;break # 반복문 탈출
+  &ensp;&ensp; &ensp;&ensp;<b>break</b> # 반복문 탈출
   &ensp;&ensp;if num%2 == 0 :  <br>
-  &ensp;&ensp; &ensp;&ensp;continue # 반복 다시 시작
+  &ensp;&ensp; &ensp;&ensp;<b>continue</b> # 반복 다시 시작
    &ensp;&ensp;print(f'{num=}')
 </li>
 
