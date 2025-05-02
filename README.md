@@ -267,6 +267,13 @@
 </ul>
 
 ### [보조제어 break, continue]() 
+
+<ul>
+<li> break : 반복문 탈출 </li>
+<li>continue : 반복 다시 시작) </li>
+</li>
+</ul>
+< br>
 <ul>
 <li><b>while True :</b> # 무한반복 <br>
   &ensp;&ensp;num = input("정수입력") <br>
