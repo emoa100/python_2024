@@ -272,7 +272,7 @@
 <li><b>while True :</b> # 무한반복 <br>
   &ensp;&ensp;num = input("정수입력") <br>
   &ensp;&ensp;if num == -1 :  <br>
-  &ensp;&ensp; &ensp;&ensp;<b>break</b> # 반복문 탈출
+  &ensp;&ensp; &ensp;&ensp;<b>break</b> # 반복문 탈출 <br>
   &ensp;&ensp;if num%2 == 0 :  <br>
   &ensp;&ensp; &ensp;&ensp;<b>continue</b> # 반복 다시 시작
    &ensp;&ensp;print(f'{num=}')
