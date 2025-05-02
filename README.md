@@ -270,7 +270,7 @@
 
 <ul>
 <li> break : 반복문 탈출 </li>
-<li>continue : 반복 다시 시작) </li>
+<li>continue : 반복 다시 시작 </li>
 </li>
 </ul>
 < br>
