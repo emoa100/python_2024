@@ -243,8 +243,19 @@
 
 <br>
 
-## [7주차 실습&nbsp;-&nbsp;반복문2](https://github.com/baek-study/python/blob/main/source/week7.ipynb)
+
+## [9주차 실습&nbsp;-&nbsp;반복문2](https://github.com/baek-study/python/blob/main/source/week7.ipynb)
+
+<br>
+
+### [반복문:for]()
 <ul>
+  <li><b>for</b> 변수 <b>in</b> 범위표현 <b>:</b> <br>
+  &nbsp; &nbsp;&nbsp; 문장들<br>
+  &nbsp;- &nbsp; for i in range(5):&ensp; print('hi')<br>
+  &nbsp;- &nbsp; for ch in 'hi':&ensp; print(ch)<br>
+  &nbsp;- &nbsp; for i in [1,2,3,4,5]:&ensp; print(i)
+</ul>
 <li>중첩 for <br>
   &nbsp; <b>for 변수 in 범위표현:</b> <br>
   &nbsp; &nbsp; <b>for i in 범위표현:</b><br>
