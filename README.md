@@ -268,25 +268,27 @@
 
 ### [보조제어 break, continue]() 
 
+
+<ul>
+<li><b>while True:</b>  <br>
+  &ensp;&ensp;num = int(input('입력'))
+  &ensp;&ensp;if num == 3 :  <br>
+  &ensp;&ensp; &ensp;&ensp;<b>break</b> # 제어를 벗어남 <br>
+  &ensp;&ensp;if num%2 == 0 :  <br>
+  &ensp;&ensp; &ensp;&ensp;<b>continue</b> # 현재 반복 중단하고 다음반복 시작
+  &ensp;&ensp;print(f'{num=}')
+</li>
+
+</ul>
+
+<br>
+
 <ul>
 <li> break : 반복문 탈출 </li>
 <li>continue : 반복 다시 시작 </li>
 </li>
 </ul>
 < br>
-<ul>
-<li><b>while True :</b> # 무한반복 <br>
-  &ensp;&ensp;num = input("정수입력") <br>
-  &ensp;&ensp;if num == -1 :  <br>
-  &ensp;&ensp; &ensp;&ensp;<b>break</b> # 반복문 탈출 <br>
-  &ensp;&ensp;if num%2 == 0 :  <br>
-  &ensp;&ensp; &ensp;&ensp;<b>continue</b> # 반복 다시 시작
-   &ensp;&ensp;print(f'{num=}')
-</li>
-
-</ul>
-
-<br>
 
 ## [4주차 실습&nbsp;-&nbsp;문자열](https://github.com/baek-study/python/blob/main/source/week4.ipynb)
 <ul>
