@@ -370,12 +370,10 @@
 
 ### [모듈(module) 가져오기]()
 <ul>
-
--<b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
--<b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정  <br>
--<b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
--<b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기<br>
-</li>
+<li><b>import</b> myModule  &ensp;&ensp;# 기본 방법 </li>
+<li><b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정   </li>
+<li><b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 </li>
+<li><b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기 </li>
 </ul>
 
 
