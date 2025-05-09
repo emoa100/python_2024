@@ -359,24 +359,23 @@
 </li>
 </ul>
 
-
+### [모듈(module) 정의/종류]()
+<ul>
+<li> 연관된 함수와 변수를 모아 놓은 파일 </li>
+<li>사용자 정의 모듈: 직접 작성, .py로 작성 </li>
+<li>표준 모듈: 파이썬 기본 제공  </li>
+<li>외부 모듈:설치 후 사용 <b>pip install</b> </li>
+</ul>
 
 
 ### [모듈(module) 가져오기]()
 <ul>
-<li> 모듈 : 연관된 함수와 변수를 모아 놓은 파일 </li>
 <li><b>import</b> myModule  &ensp;&ensp;# 기본 방법 </li>
 <li><b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정   </li>
 <li><b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 </li>
 <li><b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기 </li>
 </ul>
 
-### [모듈(module) 종류]()
-<ul>
-<li>사용자 정의 모듈: 직접 작성, .py로 작성 </li>
-<li>표준 모듈: 파이썬 기본 제공  </li>
-<li>외부 모듈:설치 후 사용 <b>pip install</b> </li>
-</ul>
 
 
 
