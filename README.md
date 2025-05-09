@@ -359,20 +359,32 @@
 </li>
 </ul>
 
-### [모듈(module)]()
+### [모듈(module) 종류]()
 <ul>
-<li> 연관된 함수의 정의나 변수를 모아 놓은 파일<br>
-  - 사용자 정의 모듈: 직접 작성, .py로 작성<br>
-  - 표준모듈: 기본 제공, ex) random <br>
-  -외부모듈:설치 후 사용, ex) <b>pip install</b> matplotlib
-<li>모듈 가져오는 방법 <br>
-<b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
-<b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명지정 alias <br>
-<b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
-<b>from</b> myModule <b>import *</b>  &ensp;&ensp;# 전부가져오기<br>
+<li> 모듈 : 연과된 함수와 변수를 모아 놓은 파일 <br>
+-사용자 정의 모듈: 직접 작성, .py로 작성 <br>
+-표준모듈: 기본 제공, ex) random  <br>
+-외부모듈:설치 후 사용, ex) <b>pip install</b> matplotlib</li>
+</ul>
+
+
+### [모듈(module) 가져오기]()
+<ul>
+
+-<b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
+-<b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명지정 alias <br>
+-<b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
+-<b>from</b> myModule <b>import *</b>  &ensp;&ensp;# 전부가져오기<br>
 </li>
+</ul>
+
+
+
+
 
 <br>
+
+
 
 ## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
 <ul>
