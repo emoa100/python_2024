@@ -368,9 +368,9 @@
 -<b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
 -<b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기 <br>
 <li> 모듈 종류 <br>
-- 사용자 정의 :직접 작성, .py로 저장
-- 표준 모듈 :파이썬 기본 제공 ex)  random 
-- 외부 모듈 : 설치 필요, pip install 
+- 사용자 정의 :직접 작성, .py로 저장<br>
+- 표준 모듈 :파이썬 기본 제공 ex)  random <br>
+- 외부 모듈 : 설치 필요, pip install <br>
 </ul>
 
 
