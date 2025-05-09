@@ -359,22 +359,20 @@
 </li>
 </ul>
 
-### [모듈(module) 정의/종류]()
+### [모듈(module)]()
 <ul>
 <li> 연관된 함수와 변수를 모아 놓은 파일 </li>
-<li>사용자 정의 모듈: 직접 작성, .py로 작성 </li>
-<li>표준 모듈: 파이썬 기본 제공  </li>
-<li>외부 모듈:설치 후 사용 <b>pip install</b> </li>
+<li> 모듈 가져오는 방법<br>
+- <b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
+-<b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정   <br>
+-<b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
+-<b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기 <br>
+<li> 모듈 종류 <br>
+- 사용자 정의 :직접 작성, .py로 저장
+- 표준 모듈 :파이썬 기본 제공 ex)  random 
+- 외부 모듈 : 설치 필요, pip install 
 </ul>
 
-
-### [모듈(module) 가져오기]()
-<ul>
-<li><b>import</b> myModule  &ensp;&ensp;# 기본 방법 </li>
-<li><b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정   </li>
-<li><b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 </li>
-<li><b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기 </li>
-</ul>
 
 
 
@@ -383,6 +381,15 @@
 
 <br>
 
+
+### [모듈(module)]()
+<ul>
+<li> 정의 : 연관된 함수와 변수를 모아 놓은 파일 </li>
+<li> <b>import</b> myModule  &ensp;&ensp;# 기본 방법 </li>
+<li><b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정   </li>
+<li><b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 </li>
+<li><b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기 </li>
+</ul>
 
 
 ## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
