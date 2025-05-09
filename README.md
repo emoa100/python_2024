@@ -362,19 +362,15 @@
 ### [모듈(module)]()
 <ul>
 <li> 연관된 함수의 정의나 변수를 모아 놓은 파일<br>
-  - <b>사용자 정의 모듈</b>: 직접 작성, .py로 작성<br>
-  - <b>표준모듈</b>: 기본 제공, ex) random <br>
+  - 사용자 정의 모듈: 직접 작성, .py로 작성<br>
+  - 표준모듈: 기본 제공, ex) random <br>
+  -외부모듈:설치 후 사용, ex) <b>pip install</b> matplotlib
 <li>모듈 가져오는 방법 <br>
 <b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
 <b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명지정 alias <br>
 <b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
 <b>from</b> myModule <b>import *</b>  &ensp;&ensp;# 전부가져오기<br>
 </li>
-
-<li>외부 모듈 : 설치 후 사용 <br>
-- pip install 라이브러리이름 <br>   
-</li>
-</ul>
 
 <br>
 
