@@ -348,23 +348,22 @@
 
 ## [10주차 실습&nbsp;-&nbsp;함수와변수&모듈 ](https://github.com/baek-study/python/blob/main/source/week10.ipynb)
 
-### [함수와변수]()
+### [지역변수vs전역변수]()
 <ul>
 <li>  <b>지역변수</b> - 함수<b>내</b>에서 생성된 변수 <br>
   &nbsp; - 함수내에서만 사용 가능
 </li>
-<li> <b>전역변수</b> : 함수<b>외</b에서 생성된 변수 <br>
+<li> <b>전역변수</b> : 함수<b>외</b>에서 생성된 변수 <br>
   &nbsp; - 모든 함수에서 사용 가능<br>
   &nbsp; - 함수 내에서 변경시: <b>global</b> 키워드 <br>
 </li>
-<br>
 </ul>
 
-### [모듈]()
+### [모듈(module)]()
 <ul>
 <li> 연관된 함수의 정의나 변수를 모아 놓은 파일<br>
   - <b>사용자 정의 모듈</b>: 직접 작성, .py로 작성<br>
-  - <b>표준모듈</b>b>: 기본 제공, ex) random <br>
+  - <b>표준모듈</b>: 기본 제공, ex) random <br>
 <li>모듈 가져오는 방법 <br>
 <b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
 <b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명지정 alias <br>
