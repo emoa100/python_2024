@@ -361,10 +361,10 @@
 
 ### [모듈(module) 종류]()
 <ul>
-<li> 모듈 : 연과된 함수와 변수를 모아 놓은 파일 <br>
+<li> 모듈 : 연관된 함수와 변수를 모아 놓은 파일 <br>
 -사용자 정의 모듈: 직접 작성, .py로 작성 <br>
--표준모듈: 기본 제공, ex) random  <br>
--외부모듈:설치 후 사용, ex) <b>pip install</b> matplotlib</li>
+-표준 모듈: 파이썬 기본 제공  <br>
+-외부 모듈:설치 후 사용 <b>pip install</b> </li>
 </ul>
 
 
@@ -372,9 +372,9 @@
 <ul>
 
 -<b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
--<b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명지정 alias <br>
+-<b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정  <br>
 -<b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
--<b>from</b> myModule <b>import *</b>  &ensp;&ensp;# 전부가져오기<br>
+-<b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기<br>
 </li>
 </ul>
 
