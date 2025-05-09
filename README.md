@@ -346,34 +346,34 @@
 
 <br>
 
-## [10주차 실습&nbsp;-&nbsp;함수와모듈](https://github.com/baek-study/python/blob/main/source/week10.ipynb)
+## [10주차 실습&nbsp;-&nbsp;함수와변수&모듈 ](https://github.com/baek-study/python/blob/main/source/week10.ipynb)
+
+### [함수와변수]()
 <ul>
 <li>  지역변수 - 함수내에서 생성된 변수 & 매개변수 <br>
   &nbsp; 함수내에서 사용가능, 함수외에서 사용 불가
 </li>
-<br>
 <li>전역변수 : 함수외에서 생성된 변수 <br>
   &nbsp; 모든 함수에서 접근 가능<br>
   &nbsp; 함수 내에서 변경시 - global 키워드 사용 <br>
 </li>
 <br>
-<li>모듈(함수 정의/변수 모아 놓은 파일) 가져오기 <br>
-  &nbsp; <b>import</b> myModule <br>
-  &nbsp; <b>import</b> myModule <b>as</b> 별명<br>
-  &nbsp; <b>from</b> myModule <b>import</b> myFunc<br>
-  &nbsp; <b>from</b> myModule <b>import *</b><br>
-  &nbsp; <b>from</b> myModule <b>import</b> myFunc <b>as</b> 별명<br>
-</li>
-<br>
-<li>표준 모듈 :파이썬이 제공한 모듈 <br>
-  &nbsp; import random;   &emsp;       # 난수모듈<br>
-  &nbsp; random.randint(1, 6) &nbsp;   # 정수 난수함수<br>
+</ul>
+
+### [모듈]()
+<ul>
+<li> 연관된 함수의 정의나 변수를 모아 놓은 파일<br>
+  사용자 정의 모듈 : 직접 작성, .py로 작성
+  표준모듈: 기본 제공, ex) random, turtle
+<li>모듈 가져오는 방법 <br>
+  &nbsp; <b>import</b> myModule # 기본 방법 <br>
+  &nbsp; <b>import</b> myModule <b>as</b> 별명 # 별명지정 alias <br>
+  &nbsp; <b>from</b> myModule <b>import</b> myFunc # 특정요소만 <br>
+  &nbsp; <b>from</b> myModule <b>import *</b> # 전부가져오기<br>
 </li>
 
-<li>외부 모듈 :파이썬 개발자들이 개발하여 공유 <br>
-  &nbsp; pip install 라이브러리이름   &emsp;       # 외부 모듈 설치 후 사용<br>
-  &nbsp; ex) pip install matplotlib  # 그래프 그리는 라이브러리<br>
-  &nbsp; ex) pip install pillow      # 이미지 처리 라이브러리(<br>
+<li>외부 모듈 : 설치 후 사용 <br>
+  &nbsp; pip install 라이브러리이름     # pip install matplotlib<br>
 </li>
 </ul>
 
