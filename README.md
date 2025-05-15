@@ -391,16 +391,26 @@
 
 
 ## [11주차 실습&nbsp;-&nbsp;리스트](https://github.com/baek-study/python/blob/main/source/week11.ipynb)
+
+### [리스트 생성 및 조작]()
 <ul>
-<li>  리스트 : 여러 데이터를 하나로 묶어 순번에 따라 저장 <br>
-  &nbsp; 생성 : temps=[28, 31, 33, 35, 27]  <br>
-  &nbsp; 인덱싱[index] : temps[3], temps[-1]  <br>
-  &nbsp; 슬라이싱[start:end:step]: temps[2:4:1]  <br>
-  &nbsp; 앝은복사 : list1 = temps # 주소 복사  <br>
-  &nbsp; 깊은복사 : list2 = list(tmeps) or temps[:) # 요소도 복사  <br>
-  &nbsp; 연산 : +(연결), *(요소반복), in/not in(존재여부)  
+<li> 생성 : temps=[28, 31, 33, 35, 27]  </li>
+<li>인덱싱[index] : temps[3], temps[-1]  </li>
+<li>슬라이싱[start:end]: temps[2:4]  </li>
+<li>연산 : +(연결), *(반복), in/not in</li>  
+<li>복사 : list1 = temps, list2 = list(temps)  
+<li>수정: temps[3] = 5, temps[2:4] = [1, 2, 3] 
+</ul>
+
+
+### [리스트 메소드]()
+<ul>
+  <li> 삽입 : temps.append(55) </li>
+  <li> 삭제 : del temps[1]</li>
+  <li> temps.sort(), temps.count(33) 등 </li>
+</ul>
+<br>
   
-</li>
 <br>
 <li> 리스트 수정<br>
   &nbsp; 요소 하나 수정: temps[3] = 5 <br>
