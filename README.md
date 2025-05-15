@@ -435,7 +435,7 @@
 <ul>
 <li>열기: infile = open('ex.txt', 'r')  </li>
 <li>읽기 : contents = infile.read() # 모든 내용을 문자열로<br>
-  - infile.readlines() # 각 줄을 리스트로 한꺼번에
+  - infile.readlines() # 각 줄을 리스트로 한꺼번에<br>
   - infile.readline() # 각 줄을 문자열로 하나씩
 <li>닫기: infile.close() </li>
 </ul>
