@@ -431,6 +431,35 @@
 </li>
 </ul>
 
+### [파일 읽기]()
+<ul>
+<li>열기: infile = open('ex.txt', 'r')  </li>
+<li>읽기 : contents = infile.read() # 모든 내용을 문자열로<br>
+  - infile.readlines() # 각 줄을 리스트로 한꺼번에
+  - infile.readline() # 각 줄을 문자열로 하나씩
+<li>닫기: infile.close() </li>
+</ul>
+
+### [파일 쓰기]()
+<ul>
+<li>열기: outfile = open('ex.txt', 'w')  </li>
+<li>쓰기 : outfile.write() # 문자열 그대로 파일에 씀<br>
+  - outfile.writeslines() # 문자열 리스트를 파일에 씀
+<li>닫기: outfile.close() </li>
+</ul>
+<br>
+
+
+### [with를 이용한 파일 처리]()
+<ul>
+<li> with 명령어 : 자원 안전하고 효율적 관리 </li>
+<li> with open('ex.txt', 'r') as file : 
+  while True:
+     line = file.readline()
+     if line  == ' ' 
+       break
+<li>닫기: outfile.close() </li>
+</ul>
 <br>
 
 ## [12주차 실습&nbsp;-&nbsp;리스트메소드&딕셔너리](https://github.com/baek-study/python/blob/main/source/week12.ipynb)
