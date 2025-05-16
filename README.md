@@ -404,11 +404,12 @@
 </ul>
 
 
-### [리스트 함수 & 메소드]()
+### [리스트 동작]()
 <ul>
   <li> 삽입 : temps.append(55) </li>
   <li> 삭제 : del temps[1]</li>
-  <li> len(temps), temps.sort(), temps.count(33) 등 </li>
+  <li> 길이 : len(temps)</li>
+  <li> temps.sort(), temps.count(33) 등 </li>
 </ul>
 
 ### [리스트 반복]()
