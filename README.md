@@ -395,11 +395,12 @@
 ### [리스트 생성 및 조작]()
 <ul>
 <li> 생성 : temps=[28, 31, 33, 35, 27]  </li>
-<li>인덱싱[index] : temps[3], temps[-1]  </li>
-<li>슬라이싱[start:end]: temps[2:4]  </li>
+<li>인덱싱: temps[3], temps[-1]  </li>
+<li>슬라이싱: temps[2:5]  </li>
 <li>연산 : +(연결), *(반복), in/not in</li>  
-<li>복사 : list1 = temps, list2 = list(temps)  
-<li>수정: temps[3] = 5, temps[2:4] = [1, 2, 3] 
+<li>얕은복사 : list1 = temps # 같은것 가리킴</li>  
+<li>깊은복사 : list2 = list(temps) # 새로운 리스트 만듬 </li>  
+<li>수정: temps[3] = 5, temps[2:5] = [1, 2] 
 </ul>
 
 
