@@ -431,27 +431,27 @@
 </li>
 </ul>
 
-### [파일 열고 닫기 ]
-<li> 1. 열기: file = open('ex.txt', 'r') # 쓰기시 'w' </li>
-<li> 2. 읽기/쓰기 : file.read() # 쓰기시 file.write() </li>
-<li> 3. 닫기 : file.close() </li>
+### [파일 열고 닫기]()
+<li> 열기: file = open('ex.txt', 'r') &emsp; # 쓰기시 'w' </li>
+<li> 읽기/쓰기 : file.read() &emsp; # 쓰기시 file.write() </li>
+<li> 닫기 : file.close() </li>
   
 ### [파일 읽기]()
 <ul>
-<li> file.read() # 모든 내용을 문자열로 </li>
-<li> file.readlines() # 각 줄을 리스트로 한꺼번에 </li>
-<li> file.readline() # 각 줄을 문자열로 하나씩 </li>
+<li> file.read() &emsp; # 모든 내용을 문자열로 </li>
+<li> file.readlines() &emsp; # 각 줄을 리스트로 한꺼번에 </li>
+<li> file.readline() &emsp; # 각 줄을 문자열로 하나씩 </li>
 </ul>
 
 ### [파일 쓰기]()
 <ul>
-<li> outfile.write('mju\n') # 문자열 그대로 파일에 씀</li>
-<li>outfile.writeslines(리스트) # 문자열 리스트를 파일에 씀</li>
+<li> outfile.write('mju\n') &emsp; # 문자열 그대로 씀</li>
+<li>outfile.writeslines(리스트) &emsp; # 문자열 리스트를 씀</li>
 </ul>
 
 ### [with를 이용한 파일 처리]()
 <ul>
-<li> with open('ex.txt', 'r') as file : # 안전하고 효율적<br>
+<li> with open('ex.txt', 'r') as file : &emsp; # 안전하고 효율적<br>
 &ensp;line = file.readline()<br>
 </ul>
 <br>
