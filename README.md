@@ -452,8 +452,7 @@
 
 ### [with를 이용한 파일 처리]()
 <ul>
-<li> with 명령어 : 자원 안전하고 효율적 관리 </li>
-<li> with open('ex.txt', 'r') as file : <br>
+<li> with open('ex.txt', 'r') as file : # 안전하고 효율적<br>
 &ensp;line = file.readline()<br>
 </ul>
 <br>
