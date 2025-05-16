@@ -443,8 +443,8 @@
 ### [파일 쓰기]()
 <ul>
 <li>열기: outfile = open('ex.txt', 'w')  </li>
-<li>쓰기 : outfile.write() # 문자열 그대로 파일에 씀<br>
-  - outfile.writeslines() # 문자열 리스트를 파일에 씀
+<li>쓰기 : outfile.write('mju\n') # 문자열 그대로 파일에 씀<br>
+  - outfile.writeslines(리스트) # 문자열 리스트를 파일에 씀
 <li>닫기: outfile.close() </li>
 </ul>
 
