@@ -454,7 +454,7 @@
 <ul>
 <li> with 명령어 : 자원 안전하고 효율적 관리 </li>
 <li> with open('ex.txt', 'r') as file : <br>
-ensp;line = file.readline()<br>
+&ensp;line = file.readline()<br>
 </ul>
 <br>
 
