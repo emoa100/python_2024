@@ -433,7 +433,7 @@
 
 ### [파일 열고 닫기]()
 <li> 열기: file = open('ex.txt', 'r') &emsp; # 쓰기시 'w' </li>
-<li> 읽기/쓰기 : file.read() &emsp; # 쓰기시 file.write() </li>
+<li> 읽기/쓰기 : file.read() &emsp;&emsp; # 쓰기시 file.write() </li>
 <li> 닫기 : file.close() </li>
   
 ### [파일 읽기]()
