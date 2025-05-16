@@ -431,21 +431,22 @@
 </li>
 </ul>
 
+### [파일 열고 닫기 ]
+<li> 1. 열기: file = open('ex.txt', 'r') # 쓰기시 'w' </li>
+<li> 2. 읽기/쓰기 : file.read() # 쓰기시 file.write() </li>
+<li> 3. 닫기 : file.close() </li>
+  
 ### [파일 읽기]()
 <ul>
-<li>열기: infile = open('ex.txt', 'r')  </li>
-<li>읽기 : contents = infile.read() # 모든 내용을 문자열로<br>
-  - infile.readlines() # 각 줄을 리스트로 한꺼번에<br>
-  - infile.readline() # 각 줄을 문자열로 하나씩
-<li>닫기: infile.close() </li>
+<li> file.read() # 모든 내용을 문자열로 </li>
+<li> file.readlines() # 각 줄을 리스트로 한꺼번에 </li>
+<li> file.readline() # 각 줄을 문자열로 하나씩 </li>
 </ul>
 
 ### [파일 쓰기]()
 <ul>
-<li>열기: outfile = open('ex.txt', 'w')  </li>
-<li>쓰기 : outfile.write('mju\n') # 문자열 그대로 파일에 씀<br>
-  - outfile.writeslines(리스트) # 문자열 리스트를 파일에 씀
-<li>닫기: outfile.close() </li>
+<li> outfile.write('mju\n') # 문자열 그대로 파일에 씀</li>
+<li>outfile.writeslines(리스트) # 문자열 리스트를 파일에 씀</li>
 </ul>
 
 ### [with를 이용한 파일 처리]()
