@@ -453,12 +453,11 @@
 ### [with를 이용한 파일 처리]()
 <ul>
 <li> with 명령어 : 자원 안전하고 효율적 관리 </li>
-<li> with open('ex.txt', 'r') as file : 
-  while True:
-     line = file.readline()
-     if line  == ' ' 
-       break
-<li>닫기: outfile.close() </li>
+<li> with open('ex.txt', 'r') as file : <br>
+  while True:<br>
+     line = file.readline()<br>
+     if line  == ' ' <br>
+       break<br>
 </ul>
 <br>
 
