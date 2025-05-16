@@ -447,8 +447,6 @@
   - outfile.writeslines() # 문자열 리스트를 파일에 씀
 <li>닫기: outfile.close() </li>
 </ul>
-<br>
-
 
 ### [with를 이용한 파일 처리]()
 <ul>
