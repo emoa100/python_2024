@@ -403,13 +403,14 @@
 </ul>
 
 
-### [리스트 메소드]()
+### [리스트 함수 & 메소드]()
 <ul>
   <li> 삽입 : temps.append(55) </li>
   <li> 삭제 : del temps[1]</li>
-  <li> temps.sort(), temps.count(33) 등 </li>
+  <li> len(temps), temps.sort(), temps.count(33) 등 </li>
 </ul>
-<br>
+
+### [리스트 반복]()
   
 <br>
 <li> 리스트 수정<br>
